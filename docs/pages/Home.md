@@ -14,7 +14,7 @@
 <h6 align="center">  будинку та його керівництва</h6>
  <h5 align="center">  за адресою : </h5>
 <h6 align="center">33023, РІВНЕНСЬКА ОБЛ., РІВНЕ, ВУЛИЦЯ ГРУШЕВСЬКОГО, 44 </h6>
-<p align="center"><img src="statics/img/pages/home/house.jpg" alt="logo" width="500"></p>
+<p align="center"><img src="statics/img/pages/home/house.jpg" alt="logo" width="404"></p>
 
 > *Тут Ви можете ознайомитися з інформацією , 
 > подіями, станом, фінасов, та використовувати ОСББ 
