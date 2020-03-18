@@ -41,10 +41,8 @@
   - Просто жмемо цю кнопку:<img src="statics/img/pages/manual/comments.8.jpg" alt="logo" width="500"></p> 
 -  Публікація:
   - Після написання повідомлення, натискаєм кнопку:м06 Після чого дивимся шо получілось:<img src="statics/img/pages/manual/comments.7.jpg" alt="logo" width="500"></p> 
-  - 
 
 ------
-
 
 
 #### Публікація (тільки адміністрація)
