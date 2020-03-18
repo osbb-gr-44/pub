@@ -40,7 +40,7 @@
 -  Для зареестрованих користувачив:
   - Просто жмемо цю кнопку:<img src="statics/img/pages/manual/comments.8.jpg" alt="logo" width="500"></p> 
 -  Публікація:
-  - Після написання повідомлення, натискаєм кнопку:<img src="statics/img/pages/manual/comments.6..jpg" alt="logo" width="500"></p>  Після чого дивимся шо получілось:<img src="statics/img/pages/manual/comments.7.jpg" alt="logo" width="500"></p> 
+  - Після написання повідомлення, натискаєм кнопку:<img src="statics/img/pages/manual/comments.6.jpg" alt="logo" width="500"></p>  Після чого дивимся шо получілось:<img src="statics/img/pages/manual/comments.7.jpg" alt="logo" width="500"></p> 
 
 ------
 
