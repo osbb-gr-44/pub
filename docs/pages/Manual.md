@@ -33,14 +33,14 @@
 
 #### Користування коментарями
 
-> Це окрема система <div type="loc-img" src="statics/img/pages/manual/comments.0.jpg"></div> тому для користування потребує окремої регістрації. 
+> Це окрема система <div type="loc-img" src="statics/img/pages/manual/comments.0.jpg"></div> тому для користування потребує окремої реєстрації. 
 
-- Регістрація:
-  - Саму регістрацію робить під своїм аккаунтом  в системі сайту. Щоб згадати можна подивиться в меню користувача, де ЇЇ також можна скопіювати :<div type="loc-img" src="statics/img/pages/manual/comments.2.jpg"></div>  Клокаєте по **Google кнопці** та заводите новий аккаунт в **Disqus** <div type="loc-img" src="statics/img/pages/manual/comments.3.jpg"></div>  Придумайте пароль, запишнить десь - щоб не забути. Жмемо кнопку: <div type="loc-img" src="statics/img/pages/manual/comments.4.jpg"></div>  Нам виводить попередження:<div type="loc-img" src="statics/img/pages/manual/comments.5.jpg"></div>
--  Для зареестрованих користувачив:
+- Реєстрація:
+  - Саму реєстрацію робить під своїм аккаунтом  в системі сайту. Щоб згадати можна подивиться в меню користувача, де ЇЇ також можна скопіювати :<div type="loc-img" src="statics/img/pages/manual/comments.2.jpg"></div>  Клокаєте по **Google кнопці** та заводите новий аккаунт в **Disqus** <div type="loc-img" src="statics/img/pages/manual/comments.3.jpg"></div>  Придумайте пароль, запишнить десь - щоб не забути. Жмемо кнопку: <div type="loc-img" src="statics/img/pages/manual/comments.4.jpg"></div>  Нам виводить попередження:<div type="loc-img" src="statics/img/pages/manual/comments.5.jpg"></div>
+-  Для зареєстрованих користувачів:
   - Просто жмемо цю кнопку:<div type="loc-img" src="statics/img/pages/manual/comments.8.jpg"></div> 
 -  Публікація:
-  - Після написання повідомлення, натискаєм кнопку:<div type="loc-img" src="statics/img/pages/manual/comments.6.jpg"></div>  Після чого дивимся шо получілось:<div type="loc-img" src="statics/img/pages/manual/comments.7.jpg"></div>
+  - Після написання повідомлення, натискаєм кнопку:<div type="loc-img" src="statics/img/pages/manual/comments.6.jpg"></div>  Після чого дивимся шо вийшло:<div type="loc-img" src="statics/img/pages/manual/comments.7.jpg"></div>
 
 ------
 
