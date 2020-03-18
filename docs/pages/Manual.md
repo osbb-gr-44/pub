@@ -31,9 +31,23 @@
 
 ------
 
+#### Користування коментарями
 
-#### Редагування сторінок (тільки адміністрація)
+> Це окрема система <img src="statics/img/pages/manual/comments.0.jpg" alt="logo" width="500"></p> тому для користування потребує окремої регістрації. 
 
+- Регістрація:
+  - Саму регістрацію робить під своїм аккаунтом  в системі сайту. Щоб згадати можна подивиться в меню користувача, де ЇЇ також можна скопіювати : <img src="statics/img/pages/manual/comments.2.jpg" alt="logo" width="500"></p>  Клокаєте по **Google кнопці** та заводите новий аккаунт в **Disqus** <img src="statics/img/pages/manual/comments.3.jpg" alt="logo" width="500"></p>  Придумайте пароль, запишнить десь - щоб не забути. Жмемо кнопку: <img src="statics/img/pages/manual/comments.4.jpg" alt="logo" width="500"></p>  Нам виводить попередження:<img src="statics/img/pages/manual/comments.5.jpg" alt="logo" width="500"></p> 
+-  Для зареестрованих користувачив:
+  - Просто жмемо цю кнопку:<img src="statics/img/pages/manual/comments.8.jpg" alt="logo" width="500"></p> 
+-  Публікація:
+  - Після написання повідомлення, натискаєм кнопку:м06 Після чого дивимся шо получілось:<img src="statics/img/pages/manual/comments.7.jpg" alt="logo" width="500"></p> 
+  - 
+
+------
+
+
+
+#### Публікація (тільки адміністрація)
 
 :::   
 *Тут пояснюється,
@@ -44,7 +58,7 @@
 
  * **<i aria-hidden="true" role="presentation" class="material-icons q-icon notranslate" style="font-size: 2.2em;left: 0.1em;position: relative;top: -0em;color: var(--q-color-primary);">exit_to_app</i> вхід** - Окрім Google аутентифікації для редагування сторінок сайт потребує додаткового акаунту з GitHub , так як усі сторінки а саме їх вміст знаходиться в системі GitHub, що надає можливість повного контролю і відслідковування введених даних адміністрацією. Приклад Реєстрації на GitHub на відео нижче.<div src="https://www.youtube.com/embed/TwBKImufRtQ?rel=0" />
 
- * **<span style="font-size: 1.6em; ">✎</span> Редагування сторінки** - Усі зареєстровані користувачі GitHub мають змогу редагувати сторінку сайту при наявності цієї кнопочки <i aria-hidden="true" class="xtjoy-icon" style="font-size: 1.6em;  position: relative; top: -0.093em;color: var(--q-color-primary);">󱕱</i> в ==верхньому правому кутку сторінки==, при натисканні на яку напряму потрапляють в GitHub редактор натиснувши кнопку з олівцем 🖊️ переключають його в режим "редагування", де після внесення змін якої, натиснувши кнопку  "Commit changes" знизу - відправляють сторінку на затвердження модератором попередивши його за допомогою ==Viber з запитом про перевірку==.
+ * **<span style="font-size: 1.6em; ">✎</span> Редагування сторінки** - Усі зареєстровані користувачі GitHub які мають **Привілеї редагування** (надається модератором)  які були долучені до співпраці по запрошенню:<img src="statics/img/pages/manual/gitHub_pub_0.jpg" alt="logo" width="500"></p> мають змогу редагувати сторінку сайту при наявності цієї кнопочки <i aria-hidden="true" class="xtjoy-icon" style="font-size: 1.6em;  position: relative; top: -0.093em;color: var(--q-color-primary);">󱕱</i> в ==верхньому правому кутку сторінки==, при натисканні на яку напряму потрапляють в GitHub редактор натиснувши кнопку з олівцем 🖊️ переключають його в режим "редагування", де після внесення змін якої, натиснувши кнопку  "Commit changes"  - відправляють сторінку на затвердження модератором попередивши його за допомогою ==Viber з запитом про перевірку==.
 
 
 #### [Markdown](https://www.markdownguide.org "Markdown is a lightweight markup language with plain-text-formatting syntax.") (___Професійний рівень___)
@@ -90,7 +104,6 @@
     </q-btn>
  </vue-cmp>
 </div>
-
 ------
 #### (FAQ) Питаня та відповіді
 :::
