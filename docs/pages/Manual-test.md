@@ -101,9 +101,7 @@ _Тут пояснюється,
 </div>
 
 <div class="fit row flex-center q-pt-md q-pb-xl">
-<label for="f_c75c2a25-c541-4fb8-84e3-e389435a8a10" class="q-field q-validation-component row no-wrap items-start q-input q-field--outlined q-field--labeled q-field--with-bottom"><div class="q-field__inner relative-position col self-stretch column justify-center"><div tabindex="-1" class="q-field__control relative-position row no-wrap"><div class="q-field__prepend q-field__marginal row no-wrap items-center"><i aria-hidden="true" role="presentation" class="material-icons q-icon notranslate">place</i></div><div class="q-field__control-container col relative-position row no-wrap q-anchor--skip"><input tabindex="0" aria-label="Label" id="f_c75c2a25-c541-4fb8-84e3-e389435a8a10" type="text" class="q-field__native q-placeholder"><div class="q-field__label no-pointer-events absolute ellipsis">Label</div></div><div class="q-field__append q-field__marginal row no-wrap items-center"><i aria-hidden="true" role="presentation" class="cursor-pointer material-icons q-icon notranslate">close</i></div></div><div class="q-field__bottom row items-start q-field__bottom--animated"><div class="q-field__messages col">
-        Field hint
-      </div><div class="q-field__counter">0</div></div></div></label>
+    <read--url-md my>
 </div>
 
 
