@@ -101,7 +101,7 @@ _Тут пояснюється,
 </div>
 
 <div class="fit row flex-center q-pt-md q-pb-xl" vue-cmp-wrapper>
- <vue-cmp cmp="qMd/ReadUrlMd">
+ <vue-cmp>
     <read--url-md my>
  </vue-cmp>
 </div>
