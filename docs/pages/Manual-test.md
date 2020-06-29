@@ -100,13 +100,36 @@ _Тут пояснюється,
  </vue-cmp>
 </div>
 
-<div class="fit row flex-center q-pt-md q-pb-xl" vue-cmp-wrapper>
- <vue-cmp>
-      <q-input standout placeholder="Placeholder" @click="clg">
-        
-      </q-input>
- </vue-cmp>
+<div class="fit row flex-center q-pt-md q-pb-xl">
+  <label
+    class="q-field q-validation-component row no-wrap items-start q-input q-field--standout"
+    ><div
+      class="q-field__inner relative-position col self-stretch column justify-center"
+    >
+      <div tabindex="-1" class="q-field__control relative-position row no-wrap">
+        <div
+          class="q-field__prepend q-field__marginal row no-wrap items-center"
+        >
+          <i
+            aria-hidden="true"
+            role="presentation"
+            class="material-icons q-icon notranslate"
+            >event</i
+          >
+        </div>
+        <div
+          class="q-field__control-container col relative-position row no-wrap q-anchor--skip"
+        >
+          <input
+            tabindex="0"
+            type="text"
+            class="q-field__native q-placeholder"
+          />
+        </div>
+      </div></div
+  ></label>
 </div>
+
 
 ------
 #### (FAQ) Питаня та відповіді
