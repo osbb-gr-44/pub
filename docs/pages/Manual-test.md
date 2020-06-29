@@ -102,7 +102,7 @@ _Тут пояснюється,
 
 <div class="fit row flex-center q-pt-md q-pb-xl" vue-cmp-wrapper>
  <vue-cmp>
-      <q-input standout placeholder="Placeholder">
+      <q-input standout placeholder="Placeholder" @click="clg">
         
       </q-input>
  </vue-cmp>
