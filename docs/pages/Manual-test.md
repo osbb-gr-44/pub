@@ -99,6 +99,17 @@ _Тут пояснюється,
     </q-btn>
  </vue-cmp>
 </div>
+
+<div class="fit row flex-center q-pt-md q-pb-xl" vue-cmp-wrapper>
+ <vue-cmp>
+      <q-input standout v-model="text" :dense="dense">
+        <template v-slot:prepend>
+          <q-icon name="event" />
+        </template>
+      </q-input>
+ </vue-cmp>
+</div>
+
 ------
 #### (FAQ) Питаня та відповіді
 :::
