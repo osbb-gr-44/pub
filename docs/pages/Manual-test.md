@@ -114,7 +114,7 @@ _Тут пояснюється,
             aria-hidden="true"
             role="presentation"
             class="material-icons q-icon notranslate"
-            >event</i
+            >biotech</i
           >
         </div>
         <div
@@ -126,7 +126,7 @@ _Тут пояснюється,
             class="q-field__native q-placeholder"
           />
         </div>
-        <div class="q-field__append q-field__marginal row no-wrap items-center"><button tabindex="0" type="button" role="button" class="q-btn q-btn-item non-selectable no-outline q-btn--flat q-btn--round q-btn--actionable q-focusable q-hoverable q-btn--wrap q-btn--dense"><span class="q-focus-helper" tabindex="-1"></span><span class="q-btn__wrapper col row q-anchor--skip"><span class="q-btn__content text-center col items-center q-anchor--skip justify-center row"><i aria-hidden="true" role="img" class="material-icons q-icon notranslate">add</i></span></span></button></div>
+        <div class="q-field__append q-field__marginal row no-wrap items-center"><button tabindex="0" type="button" role="button" class="q-btn q-btn-item non-selectable no-outline q-btn--flat q-btn--round q-btn--actionable q-focusable q-hoverable q-btn--wrap q-btn--dense"><span class="q-focus-helper" tabindex="-1"></span><span class="q-btn__wrapper col row q-anchor--skip"><span class="q-btn__content text-center col items-center q-anchor--skip justify-center row"><i aria-hidden="true" role="img" class="material-icons q-icon notranslate">open_in_new</i></span></span></button></div>
       </div></div
   ></label>
 </div>
