@@ -102,7 +102,7 @@ _Тут пояснюється,
 
 <div class="fit row flex-center q-pt-md q-pb-xl">
   <label
-    class="q-field q-validation-component row no-wrap items-start q-input q-field--standout"
+    class="q-field row no-wrap items-start q-input q-field--standout q-field--outlined q-field--labeled"
     ><div
       class="q-field__inner relative-position col self-stretch column justify-center"
     >
@@ -121,10 +121,12 @@ _Тут пояснюється,
           class="q-field__control-container col relative-position row no-wrap q-anchor--skip"
         >
           <input
+                 placeholder="Placeholder"
             tabindex="0"
             type="text"
             class="q-field__native q-placeholder"
           />
+          <div class="q-field__label no-pointer-events absolute ellipsis">Label</div>
         </div>
         <div class="q-field__append q-field__marginal row no-wrap items-center"><button tabindex="0" type="button" role="button" class="q-btn q-btn-item non-selectable no-outline q-btn--flat q-btn--round q-btn--actionable q-focusable q-hoverable q-btn--wrap q-btn--dense"><span class="q-focus-helper" tabindex="-1"></span><span class="q-btn__wrapper col row q-anchor--skip"><span class="q-btn__content text-center col items-center q-anchor--skip justify-center row"><i aria-hidden="true" role="img" class="material-icons q-icon notranslate">open_in_new</i></span></span></button></div>
       </div></div
