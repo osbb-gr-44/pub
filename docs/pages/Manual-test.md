@@ -102,7 +102,7 @@ _Тут пояснюється,
 
 <div class="fit row flex-center q-pt-md q-pb-xl" vue-cmp-wrapper>
  <vue-cmp>
-    <read--url-md my>
+    <read--url-md my style="width: 70%;"/>
  </vue-cmp>
 </div>
 
