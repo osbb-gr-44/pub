@@ -102,10 +102,8 @@ _Тут пояснюється,
 
 <div class="fit row flex-center q-pt-md q-pb-xl" vue-cmp-wrapper>
  <vue-cmp>
-      <q-input standout v-model="text" :dense="dense">
-        <template v-slot:prepend>
-          <q-icon name="event" />
-        </template>
+      <q-input standout placeholder="Placeholder">
+        
       </q-input>
  </vue-cmp>
 </div>
