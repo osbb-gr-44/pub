@@ -101,31 +101,9 @@ _Тут пояснюється,
 </div>
 
 <div class="fit row flex-center q-pt-md q-pb-xl">
-  <label
-    class="q-field row no-wrap items-start q-input q-field--standout q-field--outlined q-field--labeled"
-    ><div
-      class="q-field__inner relative-position col self-stretch column justify-center"
-    >
-      <div tabindex="-1" class="q-field__control relative-position row no-wrap">
-        <div
-          class="q-field__prepend q-field__marginal row no-wrap items-center"
-        >
-          <div class="q-item__section column text-orange q-item__section--avatar q-item__section--side justify-center"><svg aria-hidden="true" role="presentation" focusable="false" viewBox="0 0 448 512" class="q-icon notranslate"><path d="M437.2 403.5L320 215V64h8c13.3 0 24-10.7 24-24V24c0-13.3-10.7-24-24-24H120c-13.3 0-24 10.7-24 24v16c0 13.3 10.7 24 24 24h8v151L10.8 403.5C-18.5 450.6 15.3 512 70.9 512h306.2c55.7 0 89.4-61.5 60.1-108.5zM137.9 320l48.2-77.6c3.7-5.2 5.8-11.6 5.8-18.4V64h64v160c0 6.9 2.2 13.2 5.8 18.4l48.2 77.6h-172z"></path></svg></div>
-        </div>
-        <div
-          class="q-field__control-container col relative-position row no-wrap q-anchor--skip"
-        >
-          <input
-                 placeholder="Placeholder"
-            tabindex="0"
-            type="text"
-            class="q-field__native q-placeholder"
-          />
-          <div class="q-field__label no-pointer-events absolute ellipsis">Label</div>
-        </div>
-        <div class="q-field__append q-field__marginal row no-wrap items-center"><button tabindex="0" type="button" role="button" class="q-btn q-btn-item non-selectable no-outline q-btn--flat q-btn--round q-btn--actionable q-focusable q-hoverable q-btn--wrap q-btn--dense"><span class="q-focus-helper" tabindex="-1"></span><span class="q-btn__wrapper col row q-anchor--skip"><span class="q-btn__content text-center col items-center q-anchor--skip justify-center row"><i aria-hidden="true" role="img" class="material-icons q-icon notranslate">open_in_new</i></span></span></button></div>
-      </div></div
-  ></label>
+<label for="f_c75c2a25-c541-4fb8-84e3-e389435a8a10" class="q-field q-validation-component row no-wrap items-start q-input q-field--outlined q-field--labeled q-field--with-bottom"><div class="q-field__inner relative-position col self-stretch column justify-center"><div tabindex="-1" class="q-field__control relative-position row no-wrap"><div class="q-field__prepend q-field__marginal row no-wrap items-center"><i aria-hidden="true" role="presentation" class="material-icons q-icon notranslate">place</i></div><div class="q-field__control-container col relative-position row no-wrap q-anchor--skip"><input tabindex="0" aria-label="Label" id="f_c75c2a25-c541-4fb8-84e3-e389435a8a10" type="text" class="q-field__native q-placeholder"><div class="q-field__label no-pointer-events absolute ellipsis">Label</div></div><div class="q-field__append q-field__marginal row no-wrap items-center"><i aria-hidden="true" role="presentation" class="cursor-pointer material-icons q-icon notranslate">close</i></div></div><div class="q-field__bottom row items-start q-field__bottom--animated"><div class="q-field__messages col">
+        Field hint
+      </div><div class="q-field__counter">0</div></div></div></label>
 </div>
 
 
