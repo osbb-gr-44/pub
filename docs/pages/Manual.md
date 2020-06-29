@@ -1,3 +1,4 @@
+
 #### [origin](https://osbb-gr-44.web.app/#/manual)
 
 <h5 align="center">
@@ -98,6 +99,14 @@ _Тут пояснюється,
     </q-btn>
  </vue-cmp>
 </div>
+
+<div class="fit row flex-center q-pt-md q-pb-xl" vue-cmp-wrapper>
+ <vue-cmp>
+    <read--url-md my style="width: 70%;"/>
+ </vue-cmp>
+</div>
+
+
 ------
 #### (FAQ) Питаня та відповіді
 :::
