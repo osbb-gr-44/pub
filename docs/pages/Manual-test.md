@@ -100,8 +100,10 @@ _Тут пояснюється,
  </vue-cmp>
 </div>
 
-<div class="fit row flex-center q-pt-md q-pb-xl">
-    <inn-vue-read--url-md my>
+<div class="fit row flex-center q-pt-md q-pb-xl" vue-cmp-wrapper>
+ <vue-cmp>
+    <read--url-md my>
+ </vue-cmp>
 </div>
 
 
