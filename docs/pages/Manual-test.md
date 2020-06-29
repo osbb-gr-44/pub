@@ -101,7 +101,7 @@ _Тут пояснюється,
 </div>
 
 <div class="fit row flex-center q-pt-md q-pb-xl">
-    <read--url-md my>
+    <inn-vue-read--url-md my>
 </div>
 
 
