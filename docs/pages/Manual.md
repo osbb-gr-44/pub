@@ -5,7 +5,7 @@
   <br>
   <div class="row flex-center"><div class="manual-logo-200"></div></div>
   <br>
-      Посібник користувача
+      Посібник користува ча
   <br>
 </h5>
 
