@@ -50,31 +50,37 @@
     <script src="https://unpkg.com/@videojs/http-streaming@2.2.1/dist/videojs-http-streaming.min.js"></script>
     <script src="videojs-plugin-concat.min.js"></script>
     <script>
-      var player = videojs('my_video_1')
-      player.concat({
-        manifests: [
-          {
-            url:
-              'https://osbb-gr-44.github.io/pub/video/outbudni_osbb_z_ihorem_michudoyu__hist--olifer_serhiy/v.m3u8',
-            mimeType: 'application/x-mpegURL',
-            withCredentials: false
+      var opt = 0
+      try {
+        opt = JSON.parse(atob(window.location.hash.substring(1).trim()))
+      } catch {}
+      if (opt && opt.m3u8) {
+        window.document.title = opt.t
+        var player = videojs('my_video_1')
+        player.concat({
+          manifests: [
+            {
+              url: opt.m3u8,
+              mimeType: 'application/x-mpegURL',
+              withCredentials: false
+            }
+          ],
+          targetVerticalResolution: 720,
+          callback: (err, result) => {
+            if (err) {
+              console.error(err)
+              return
+            }
+            console.log(result)
+            player.src({
+              src: `data:application/vnd.videojs.vhs+json,${JSON.stringify(
+                result.manifestObject
+              )}`,
+              type: 'application/vnd.videojs.vhs+json'
+            })
           }
-        ],
-        targetVerticalResolution: 720,
-        callback: (err, result) => {
-          if (err) {
-            console.error(err)
-            return
-          }
-          console.log(result)
-          player.src({
-            src: `data:application/vnd.videojs.vhs+json,${JSON.stringify(
-              result.manifestObject
-            )}`,
-            type: 'application/vnd.videojs.vhs+json'
-          })
-        }
-      })
+        })
+      }
     </script>
   </body>
 </html>
