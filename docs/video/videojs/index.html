@@ -13,20 +13,37 @@
       href="https://unpkg.com/video.js@7.8.4/dist/video-js.min.css"
       rel="stylesheet"
     />
-  </head>
-  <body style="width: 70%; overflow: visible;">
-    <video-js
-      id="my_video_1"
-      tabindex="-1"
-      disableremoteplayback=""
-      webkit-playsinline=""
-      playsinline=""
-      controls preload="auto" 
-      width="480" 
-      height="270"
-    >
-    </video-js>
+    <style type="text/css">
+      body,
+      html {
+        margin: 0;
+        box-sizing: border-box;
+      }
+      body {
+        min-width: 100%;
+        max-width: 100%;
+        display: inline-flex;
+        justify-content: center;
 
+        max-height: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <div style="min-width: 70%;width: 70%;">
+      <video-js
+        id="my_video_1"
+        tabindex="-1"
+        disableremoteplayback=""
+        webkit-playsinline=""
+        playsinline=""
+        controls
+        preload="auto"
+        width="480"
+        height="270"
+      >
+      </video-js>
+    </div>
     <script src="https://unpkg.com/video.js@7.8.4/dist/video.min.js"></script>
     <script src="https://unpkg.com/@videojs/http-streaming@2.2.1/dist/videojs-http-streaming.min.js"></script>
     <script src="videojs-plugin-concat.min.js"></script>
