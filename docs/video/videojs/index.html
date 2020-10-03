@@ -2,7 +2,11 @@
   <head prefix="og:http://ogp.me/ns#">
     <meta charset="utf-8" />
     <title>Budni Osbb Z Ihorem Michudoyu Hist Olifer Serhiy</title>
-    <link rel="icon" type="image/svg+xml" href="https://osbb-gr-44.web.app/icons/svg/favicon.svg">
+    <link
+      rel="icon"
+      type="image/svg+xml"
+      href="https://osbb-gr-44.web.app/icons/svg/favicon.svg"
+    />
     <meta property="og:type" content="video" />
     <meta property="og:video:type" content="application/x-mpegURL" />
     <meta property="og:video:width" content="480" />
@@ -147,12 +151,20 @@
           controls: true,
           autoplay: false,
           preload: 'auto',
-          poster: 'http://vjs.zencdn.net/v/oceans.png',
+          poster: opt.p,
           width: 480,
           height: 270
         })
 
-        player.src({ src: opt.m3u8, type: 'application/x-mpegURL' }) = opt.m3u8
+        player.src({
+          src: opt.m3u8,
+          type: 'application/x-mpegURL',
+          withCredentials: false
+        })
+        player.ready(function () {
+          player.volume(0.3)
+          console.log(player.volume(), player)
+        })
       }
     </script>
   </body>
