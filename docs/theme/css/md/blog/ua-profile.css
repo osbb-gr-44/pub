@@ -1,0 +1,25 @@
+.ua-profile{
+    font-family:'Open Sans',sans-serif,Arial,Helvetica;
+}
+.ua-profile.q-markdown .q-markdown--heading-h1 ,.ua-profile.q-markdown .q-markdown--heading-h2{
+	text-shadow: 0 0 1px #eee,0 0 1px #ccc,0 0 1px #333,0 0 1px #222,0 0 1px #111,0 0 1px #000,0 0 1px #000,0 0 1px #000;
+}
+.ua-profile.q-markdown .q-markdown--heading-h1 {
+	padding-left: 4vw;
+}
+.ua-profile.q-markdown .q-markdown--heading-h2 {
+	padding-left: 5vw;
+}
+.ua-profile {
+	text-shadow: 0 0 1px #eee,0 0 1px #ccc,0 0 1px #aaa,0 0 1px #777,0 0 1px #555,0 0 1px #444,0 0 1px #333,0 0 1px #000;
+}
+.ua-profile .ua-profile--logo-200 {
+	width: 36vh;
+	height: 40vh;
+	font-size: 14.5em;
+	-webkit-mask: url("https://osbb-gr-44.github.io/pub/img/svg/icons/man-with-tie-profile.svg") no-repeat 100% 100%;
+	mask: url("https://osbb-gr-44.github.io/pub/img/svg/icons/man-with-tie-profile.svg") no-repeat 100% 100%;
+	-webkit-mask-size: cover;
+	mask-size: cover;
+	background-color: var(--q-color-primary);
+}
