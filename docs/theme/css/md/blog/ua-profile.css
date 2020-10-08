@@ -133,21 +133,27 @@
   font-size: calc(100vw / 96 + 10px);
   text-shadow: 0 0 1px #eee, 0 0 1px currentColor, 0 0 1px currentColor, 0 0 1px currentColor, 0 0 1px currentColor, 0 0 1px #444, 0 0 1px #333, 0 0 1px #000;
 }
-@media (max-width: 599px) {
+@media (max-width: 434px) {
+  .ua-profile .git-hub--player iframe {
+    height: 20.7em;
+    width: 21em;
+  }
+}
+@media (min-width: 435px) {
   .ua-profile .git-hub--player iframe {
     height: 24em;
-    width: 29em;
+    width: 30em;
   }
 }
 @media (min-width: 560px) {
   .ua-profile .git-hub--player iframe {
     height: 31em;
-    width: 39em;
+    width: 40em;
   }
 }
 @media (min-width: 1023px) {
   .ua-profile .git-hub--player iframe {
     height: 51em;
-    width: 67em;
+    width: 69em;
   }
 }
