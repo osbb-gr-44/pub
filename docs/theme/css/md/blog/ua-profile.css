@@ -68,20 +68,20 @@
 }
 .ua-profile table.q-markdown--table tbody td:first-child,
 .ua-profile table.q-markdown--table thead tbody th {
-  borderwidth: 0;
+  border-width: 0;
 }
 .ua-profile table.q-markdown--table tbody td:last-child,
 .ua-profile table.q-markdown--table thead tbody th {
-  borderwidth: 0;
+  border-width: 0;
 }
 .ua-profile table.q-markdown--table tbody tr:first-child td,
 .ua-profile table.q-markdown--table thead tbody th {
-  borderwidth: 0;
+  border-width: 0;
 }
 .ua-profile table.q-markdown--table tbody tr:last-child td,
 .ua-profile table.q-markdown--table thead tbody th {
-  borderwidth: 0;
-  borderwidth: 0;
+  border-width: 0;
+  border-width: 0;
 }
 .ua-profile table.q-markdown--table tbody td:first-child,
 .ua-profile table.q-markdown--table thead th:first-child {
