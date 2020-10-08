@@ -5,13 +5,6 @@
 .ua-profile .q-markdown .q-markdown--heading-h1 ,.ua-profile.q-markdown .q-markdown--heading-h2{
 	text-shadow: 0 0 1px #eee,0 0 1px #ccc,0 0 1px #333,0 0 1px #222,0 0 1px #111,0 0 1px #000,0 0 1px #000,0 0 1px #000;
 }
-.ua-profile .q-markdown .q-markdown--heading-h1 {
-	padding-left: 4vw;
-}
-.ua-profile .q-markdown .q-markdown--heading-h2 {
-	padding-left: 5vw;
-}
-
 .ua-profile .ua-profile--logo-200 {
 	width: 36vh;
 	height: 40vh;
@@ -21,4 +14,15 @@
 	-webkit-mask-size: cover;
 	mask-size: cover;
 	background-color: var(--q-color-primary);
+}
+.ua-profile .q-markdown .q-markdown--heading-h1 {
+	padding-left: 4vw;
+}
+.ua-profile .q-markdown .q-markdown--heading-h2 {
+	padding-left: 5vw;
+}
+.ua-profile .q-markdown .q-markdown--table {
+	position: relative;
+	left: 50%;
+	transform: translateX(-50%);
 }
