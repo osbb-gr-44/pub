@@ -35,6 +35,9 @@
   background: transparent;
   border: none;
 }
+.ua-profile table.q-markdown--table tbody tr:last-child td {
+  border-width: 0 0 2px 2px;
+}
 .ua-profile table.q-markdown--table tbody tr:last-child td:first-child {
   border-radius: 0 0 0 1em;
   border-width: 0 2px 0 0;
