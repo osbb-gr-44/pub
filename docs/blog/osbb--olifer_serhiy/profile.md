@@ -6,8 +6,7 @@ person/
 
  -->
 
-#### [origin](https://osbb-gr-44.web.app/#/read--url-md?url=https%3A%2F%2Fosbb-gr-44.github.io%2Fpub%2Fblog%2Fosbb--olifer_serhiy%2Fprofile.md
-)
+#### [origin](https://osbb-gr-44.web.app/#/read--url-md?url=https%3A%2F%2Fosbb-gr-44.github.io%2Fpub%2Fblog%2Fosbb--olifer_serhiy%2Fprofile.md)
 
 <div class="fit row flex-center">
        <div class="ua-profile--logo-200"></div>
@@ -28,9 +27,9 @@ person/
 | Назва           | Зміст                                                                                            |
 | --------------- | ------------------------------------------------------------------------------------------------ |
 | Стан реєстрації | зареєстровано                                                                                    |
-| Види діяльності | 68.32 Управління нерухомим майном за винагороду або на основі контракту (основний); |
+| Види діяльності | 68.32 Управління нерухомим майном за винагороду або на основі контракту (основний);              |
 |                 | 69.20 Діяльність у сфері бухгалтерського обліку й аудиту; консультування з питань оподаткування; |
-|                 | 66.30 Управління фондами; |
+|                 | 66.30 Управління фондами;                                                                        |
 |                 | 80.10 Діяльність приватних охоронних служб                                                       |
 |                 |                                                                                                  |
 
@@ -87,8 +86,8 @@ person/
 
 ### Дані про реєстрацію платником ЄСВ:
 
-| Назва                                       | Зміст                                       | 
-|---------------------------------------------|---------------------------------------------|
+| Назва                                       | Зміст                                       |
+| ------------------------------------------- | ------------------------------------------- |
 | Найменування ДПІ за основним місцем обліку  | [ГУ ДФС у м.Рiвному](http://rv.sfs.gov.ua/) |
 | Код ЕГРПОУ ДПІ                              | 39550744                                    |
 | Дата взяття на облік                        | 2011-06-03                                  |
@@ -119,6 +118,6 @@ person/
 
 ## Офіційні джерела :
 
-* [«Приват24 для бізнесу» ( кабінет підприємства )](https://24.privatbank.ua)
-* [Інструкція щодо роботи з додатком «Автоклієнт» ( якщо є бажання самім )](https://docs.google.com/document/d/e/2PACX-1vS8rx2WKg69o6JvG5L4AhSXcU6vxXcJph6WK84qJcAYDBvsNYEob57jDMQhbosjc9gRS5bOTqTXf0vb/pub)
-* [Опис API для взаємодії з серверною частиною Автоклієнта ( це те що буде використовуватись )](https://docs.google.com/document/d/e/2PACX-1vTtKvGa3P4E-lDqLg3bHRF6Wi9S7GIjSMFEFxII5qQZBGxuTXs25hQNiUU1hMZQhOyx6BNvIZ1bVKSr/pub)
+- [«Приват24 для бізнесу» ( кабінет підприємства )](https://24.privatbank.ua)
+- [Інструкція щодо роботи з додатком «Автоклієнт» ( якщо є бажання самім )](https://docs.google.com/document/d/e/2PACX-1vS8rx2WKg69o6JvG5L4AhSXcU6vxXcJph6WK84qJcAYDBvsNYEob57jDMQhbosjc9gRS5bOTqTXf0vb/pub)
+- [Опис API для взаємодії з серверною частиною Автоклієнта ( це те що буде використовуватись )](https://docs.google.com/document/d/e/2PACX-1vTtKvGa3P4E-lDqLg3bHRF6Wi9S7GIjSMFEFxII5qQZBGxuTXs25hQNiUU1hMZQhOyx6BNvIZ1bVKSr/pub)
