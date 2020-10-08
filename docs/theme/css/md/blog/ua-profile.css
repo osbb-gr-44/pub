@@ -33,12 +33,15 @@
 }
 .ua-profile table.q-markdown--table tbody tr {
   background: transparent;
+  border: none;
 }
 .ua-profile table.q-markdown--table tbody tr:last-child td:first-child {
   border-radius: 0 0 0 1em;
+  border-width: 0 2px 0 0;
 }
 .ua-profile table.q-markdown--table tbody tr:last-child td:last-child {
   border-radius: 0 0 1em 0;
+  border-width: 0 0 0 2px;
 }
 .ua-profile table.q-markdown--table tbody tr:nth-child(2n) td {
   background: #fafafa;
