@@ -76,7 +76,7 @@
 }
 .ua-profile table.q-markdown--table tbody tr:first-child td,
 .ua-profile table.q-markdown--table thead tbody th {
-  border-width: 0;
+  border-width: 0 2px 0 0;
 }
 .ua-profile table.q-markdown--table tbody tr:last-child td,
 .ua-profile table.q-markdown--table thead tbody th {
