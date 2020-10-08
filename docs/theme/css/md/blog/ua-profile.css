@@ -91,6 +91,17 @@
   border-left: 2px solid #333;
   border-right: 0;
 }
+.ua-profile .q-markdown--note {
+  left: 10%;
+  margin: 0;
+  padding: 1vw;
+  position: relative;
+  transform: translateX(-10%);
+  width: 80%;
+}
+.ua-profile blockquote.q-markdown--note {
+  border-color: var(--q-color-primary) var(--q-color-accent);
+}
 .ua-profile .ua-profile--logo-200 {
   background-color: var(--q-color-primary);
   font-size: 14.5em;
