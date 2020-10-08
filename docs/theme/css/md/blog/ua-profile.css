@@ -3,94 +3,94 @@
   text-shadow: 0 0 1px #eee, 0 0 1px #ccc, 0 0 1px #aaa, 0 0 1px #777, 0 0 1px #555, 0 0 1px #444, 0 0 1px #333, 0 0 1px #000;
 }
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap");
-.ua-profile .ua-profile p,
-.ua-profile .ua-profile .air-p {
+.ua-profile p,
+.ua-profile .air-p {
   font-size: 1rem;
   margin-bottom: 1.3rem;
 }
-.ua-profile .ua-profile h1,
-.ua-profile .ua-profile .air-h1,
-.ua-profile .ua-profile h2,
-.ua-profile .ua-profile .air-h2,
-.ua-profile .ua-profile h3,
-.ua-profile .ua-profile .air-h3,
-.ua-profile .ua-profile h4,
-.ua-profile .ua-profile .air-h4 {
-  margin: 1.414rem 0 0.5rem;
+.ua-profile h1,
+.ua-profile .air-h1,
+.ua-profile h2,
+.ua-profile .air-h2,
+.ua-profile h3,
+.ua-profile .air-h3,
+.ua-profile h4,
+.ua-profile .air-h4 {
   font-weight: inherit;
   line-height: 1.42;
+  margin: 1.414rem 0 0.5rem;
 }
-.ua-profile .ua-profile h1,
-.ua-profile .ua-profile .air-h1 {
-  margin-top: 0;
+.ua-profile h1,
+.ua-profile .air-h1 {
   font-size: 3.998rem;
+  margin-top: 0;
 }
-.ua-profile .ua-profile h2,
-.ua-profile .ua-profile .air-h2 {
+.ua-profile h2,
+.ua-profile .air-h2 {
   font-size: 2.827rem;
 }
-.ua-profile .ua-profile h3,
-.ua-profile .ua-profile .air-h3 {
+.ua-profile h3,
+.ua-profile .air-h3 {
   font-size: 1.999rem;
 }
-.ua-profile .ua-profile h4,
-.ua-profile .ua-profile .air-h4 {
+.ua-profile h4,
+.ua-profile .air-h4 {
   font-size: 1.414rem;
 }
-.ua-profile .ua-profile h5,
-.ua-profile .ua-profile .air-h5 {
+.ua-profile h5,
+.ua-profile .air-h5 {
   font-size: 1.121rem;
 }
-.ua-profile .ua-profile h6,
-.ua-profile .ua-profile .air-h6 {
+.ua-profile h6,
+.ua-profile .air-h6 {
   font-size: 0.88rem;
 }
-.ua-profile .ua-profile small,
-.ua-profile .ua-profile .air-small {
+.ua-profile small,
+.ua-profile .air-small {
   font-size: 0.707em;
 }
-.ua-profile .ua-profile img,
-.ua-profile .ua-profile canvas,
-.ua-profile .ua-profile iframe,
-.ua-profile .ua-profile video,
-.ua-profile .ua-profile svg,
-.ua-profile .ua-profile select,
-.ua-profile .ua-profile textarea {
+.ua-profile img,
+.ua-profile canvas,
+.ua-profile iframe,
+.ua-profile video,
+.ua-profile svg,
+.ua-profile select,
+.ua-profile textarea {
   max-width: 100%;
 }
-.ua-profile .ua-profile img {
+.ua-profile img {
   border-radius: 50%;
   height: 200px;
   margin: 0 auto;
   width: 200px;
 }
-.ua-profile .ua-profile a,
-.ua-profile .ua-profile a:visited {
+.ua-profile a,
+.ua-profile a:visited {
   color: #3498db;
 }
-.ua-profile .ua-profile a:hover,
-.ua-profile .ua-profile a:focus,
-.ua-profile .ua-profile a:active {
+.ua-profile a:hover,
+.ua-profile a:focus,
+.ua-profile a:active {
   color: #2980b9;
 }
-.ua-profile .ua-profile pre {
+.ua-profile pre {
   background-color: #fafafa;
   padding: 1rem;
   text-align: left;
 }
-.ua-profile .ua-profile blockquote {
-  margin: 0;
+.ua-profile blockquote {
   border-left: 5px solid #7a7a7a;
   font-style: italic;
+  margin: 0;
   padding: 1.33em;
   text-align: left;
 }
-.ua-profile .ua-profile ul,
-.ua-profile .ua-profile ol,
-.ua-profile .ua-profile li {
+.ua-profile ul,
+.ua-profile ol,
+.ua-profile li {
   text-align: left;
 }
-.ua-profile .ua-profile p {
+.ua-profile p {
   color: #777;
 }
 .ua-profile .ua-profile--logo-200 {
