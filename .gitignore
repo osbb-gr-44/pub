@@ -30,3 +30,4 @@
 # игнорировать все каталог в **/src/
 /**/src/
 docs/README.md
+stylExecutable.md
