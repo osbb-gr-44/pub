@@ -142,18 +142,18 @@
 @media (min-width: 435px) {
   .ua-profile .git-hub--player iframe {
     height: 24em;
-    width: 30em;
+    width: 28em;
   }
 }
 @media (min-width: 560px) {
   .ua-profile .git-hub--player iframe {
     height: 31em;
-    width: 40em;
+    width: 38em;
   }
 }
 @media (min-width: 1023px) {
   .ua-profile .git-hub--player iframe {
-    height: 51em;
-    width: 69em;
+    height: 41em;
+    width: 53em;
   }
 }

@@ -6,7 +6,8 @@ person/
 
  -->
 
-#### [origin](https://osbb-gr-44.web.app/#/)
+#### [origin](https://osbb-gr-44.web.app/#/read--url-md?url=https%3A%2F%2Fosbb-gr-44.github.io%2Fpub%2Fblog%2Fosbb--olifer_serhiy%2Fprofile.md
+)
 
 <div class="fit row flex-center">
        <div class="ua-profile--logo-200"></div>
