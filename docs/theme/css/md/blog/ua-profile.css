@@ -96,7 +96,7 @@
 .ua-profile .q-markdown--note {
   left: 10%;
   margin: 0;
-  padding: 1vw;
+  padding: calc(100vw / 96 + 10px);
   position: relative;
   transform: translateX(-10%);
   width: 80%;
@@ -107,10 +107,10 @@
 .ua-profile .ua-profile--logo-200 {
   background-color: var(--q-color-primary);
   font-size: 14.5em;
-  height: 48vh;
+  height: calc(100vw / 11 + 5rem);
   mask: url("https://osbb-gr-44.github.io/pub/img/svg/icons/man-with-tie-profile.svg") no-repeat 100% 100%;
   mask-size: cover;
-  width: 44vh;
+  width: calc(100vw / 11 + 5rem);
   -webkit-mask: url("https://osbb-gr-44.github.io/pub/img/svg/icons/man-with-tie-profile.svg") no-repeat 100% 100%;
   -webkit-mask-size: cover;
 }
@@ -130,6 +130,24 @@
   text-shadow: 0 0 1px #eee, 0 0 1px #ccc, 0 0 1px #333, 0 0 1px #222, 0 0 1px #111, 0 0 1px #000, 0 0 1px #000, 0 0 1px #000;
 }
 .ua-profile .q-markdown .q-markdown--link-external {
-  font-size: 1.5vw;
+  font-size: calc(100vw / 96 + 10px);
   text-shadow: 0 0 1px #eee, 0 0 1px currentColor, 0 0 1px currentColor, 0 0 1px currentColor, 0 0 1px currentColor, 0 0 1px #444, 0 0 1px #333, 0 0 1px #000;
+}
+@media (max-width: 599px) {
+  .ua-profile .git-hub--player iframe {
+    height: 24em;
+    width: 29em;
+  }
+}
+@media (min-width: 560px) {
+  .ua-profile .git-hub--player iframe {
+    height: 31em;
+    width: 39em;
+  }
+}
+@media (min-width: 1023px) {
+  .ua-profile .git-hub--player iframe {
+    height: 51em;
+    width: 67em;
+  }
 }
