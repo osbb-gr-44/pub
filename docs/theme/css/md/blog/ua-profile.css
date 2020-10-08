@@ -2,8 +2,11 @@
   font-family: 'Open Sans', sans-serif, Arial, Helvetica;
   text-shadow: 0 0 1px #eee, 0 0 1px #ccc, 0 0 1px #aaa, 0 0 1px #777, 0 0 1px #555, 0 0 1px #444, 0 0 1px #333, 0 0 1px #000;
 }
+.ua-profile table.q-markdown--table {
+  border-width: 0;
+}
 .ua-profile table.q-markdown--table thead {
-  border-top: none;
+  border: none;
 }
 .ua-profile table.q-markdown--table thead th {
   border-left: 1px solid #333;
@@ -17,17 +20,22 @@
   border-right: none;
 }
 .ua-profile table.q-markdown--table thead tr th {
-  borderwidth: 0px;
+  borderwidth: 0;
   padding: 1.2vw;
+}
+.ua-profile table.q-markdown--table tbody {
+  border: none;
 }
 .ua-profile table.q-markdown--table tbody td {
   padding: 1.3vw;
   text-align: center;
 }
 .ua-profile table.q-markdown--table tbody td:first-child {
+  border-left: none;
   text-align: right;
 }
 .ua-profile table.q-markdown--table tbody td:last-child {
+  border-right: none;
   text-align: left;
 }
 .ua-profile table.q-markdown--table tbody td.q-markdown--table thead th {
@@ -36,28 +44,30 @@
 }
 .ua-profile table.q-markdown--table tbody td:first-child,
 .ua-profile table.q-markdown--table tbody th {
-  borderwidth: 0px;
+  borderwidth: 0;
 }
 .ua-profile table.q-markdown--table tbody td:last-child,
 .ua-profile table.q-markdown--table tbody th {
-  borderwidth: 0px;
+  borderwidth: 0;
 }
 .ua-profile table.q-markdown--table tbody tr:first-child td,
 .ua-profile table.q-markdown--table tbody th {
-  borderwidth: 0px;
+  borderwidth: 0;
 }
 .ua-profile table.q-markdown--table tbody tr:last-child td,
 .ua-profile table.q-markdown--table tbody th {
-  borderwidth: 0px;
-  borderwidth: 0px;
+  borderwidth: 0;
+  borderwidth: 0;
 }
 .ua-profile table.q-markdown--table tbody td:first-child,
 .ua-profile table.q-markdown--table thead th:first-child {
+  border-left: 0;
   border-right: 2px solid #333;
 }
 .ua-profile table.q-markdown--table tbody td:last-child,
 .ua-profile table.q-markdown--table thead th:last-child {
   border-left: 2px solid #333;
+  border-right: 0;
 }
 .ua-profile .ua-profile--logo-200 {
   background-color: var(--q-color-primary);
