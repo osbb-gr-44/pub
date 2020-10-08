@@ -22,10 +22,12 @@
 .ua-profile table.q-markdown--table thead tr th:first-child {
   border-left: none;
   border-radius: 1em 0 0 0;
+  border-width: 0 2.3px 2.3px 0;
 }
 .ua-profile table.q-markdown--table thead tr th:last-child {
   border-radius: 0 1em 0 0;
   border-right: none;
+  border-width: 0 0 2.3px 2.3px;
 }
 .ua-profile table.q-markdown--table tbody {
   background: transparent;
