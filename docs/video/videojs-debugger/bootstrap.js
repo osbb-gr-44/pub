@@ -110,6 +110,7 @@
     }
   
     videojs.plugin('debuggerWindow', function(opts) {
+        console.log('debuggerWindow',opts, videojs.getComponent)
       var events = getEvents(loadDebugger),
           videoEvents = filter(videojs.getComponent('Html5').Events, function(event) { return event !== 'timeupdate' && event !== 'progress' && event !== 'suspend'; }),
           i = videoEvents.length,
