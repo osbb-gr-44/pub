@@ -14,11 +14,11 @@ person/
 
 # Мій Профіль
 
-## **ФОП Оліфер Сергій Анатолійович**
+## **Оліфер Сергій Анатолійович**
 
  <div  type="git-hub--player" src="https://osbb-gr-44.github.io/pub/video/videojs/iframe.html#ew0KICAiaWQiOiAie2dlbjppZH0iLA0KICAidCI6ICJCdWRuaSBPc2JiIFogSWhvcmVtIE1pY2h1ZG95dSBIaXN0IE9saWZlciBTZXJoaXkiLA0KICAicCI6ICJodHRwczovL29zYmItZ3ItNDQuZ2l0aHViLmlvL3B1Yi92aWRlby9kYXRhL2J1ZG5pX29zYmJfel9paG9yZW1fbWljaHVkb3l1X19oaXN0LS1vbGlmZXJfc2VyaGl5LzIuanBnIiwNCiAgIm0zdTgiOiAiaHR0cHM6Ly9vc2JiLWdyLTQ0LmdpdGh1Yi5pby9wdWIvdmlkZW8vZGF0YS9idWRuaV9vc2JiX3pfaWhvcmVtX21pY2h1ZG95dV9faGlzdC0tb2xpZmVyX3NlcmhpeS92Lm0zdTgiDQp9" data-player--style="padding: 7vh 0; "></div>
 
-> Фізична особа підприємець Оліфер Сергій Анатолійович (м. Рівне)
+> Як Фізична особа підприємець (ФОП) Оліфер Сергій Анатолійович (м. Рівне)
 
 #### [Державний реєстр фізичних осіб та підприємців](https://usr.minjust.gov.ua/content/free-search)
 
