@@ -1,10 +1,13 @@
 <title>Player Debugger Demo</title>
 
-<link href="node_modules/video.js/dist/video-js.css" rel="stylesheet">
+<link
+href="https://unpkg.com/video.js/dist/video-js.min.css"
+rel="stylesheet"
+/>
 <!--<link href="src/css/debugger.css" rel="stylesheet">-->
-<script src="node_modules/video.js/dist/video.js"></script>
+<script src="https://unpkg.com/video.js/dist/video.min.js"></script>
 <!--<script src="src/js/debugger.js"></script>-->
-<script src="src/js/bootstrap.js"></script>
+<script src="bootstrap.js"></script>
 
 <p>
   To open the debugger, you codess <code>F2</code> on desktops, or do a two finger tap on mobile.
@@ -37,7 +40,7 @@
   });
 
   player.debuggerWindow({
-    js: "src/js/debugger.js",
-    css: "src/css/debugger.css"
+    js: "0.js",
+    css: "0.css"
   });
 </script>
