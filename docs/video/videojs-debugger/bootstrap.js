@@ -96,14 +96,14 @@
           unbindEvents();
         }
       };
-      console.log('debuggerWindow',options)
+    
       s.src = options.js || 'debugger.js';
   
       debuggerStyle.rel = 'stylesheet';
       fontawesome.rel = 'stylesheet';
       debuggerStyle.href = options.css || 'debugger.css';
       fontawesome.href = '//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css';
-  
+      console.log('debuggerWindow',s)
       document.body.appendChild(s);
       document.body.appendChild(debuggerStyle);
       document.body.appendChild(fontawesome);
