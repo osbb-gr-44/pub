@@ -1,0 +1,25 @@
+.main > *, .main .editor > *
+    display flex
+
+.main
+    & > *
+        display flex
+        width 90vw
+
+    .editor
+        flex-direction row
+        height 90vh
+
+        & > *:first-child
+            justify-content end
+
+        & > *:last-child
+            justify-content start
+
+        #qrcode-href
+            height 70%
+            width 40%
+
+        #qrcode-img
+            height 100%
+            width 60%

@@ -1,0 +1,27 @@
+.main > *,
+.main .editor > * {
+  display: flex;
+}
+
+.main > * {
+  display: flex;
+  width: 90vw;
+}
+.main .editor {
+  flex-direction: row;
+  height: 90vh;
+}
+.main .editor > *:first-child {
+  justify-content: end;
+}
+.main .editor > *:last-child {
+  justify-content: start;
+}
+.main .editor #qrcode-href {
+  width: 40%;
+  height: 70%;
+}
+.main .editor #qrcode-img {
+  width: 60%;
+  height: 100%;
+}

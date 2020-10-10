@@ -3,10 +3,11 @@
 <title>QR Code Gen</title>
 <head>
   <link rel="icon" type="image/svg+xml" href="//pub/img/svg/video-js__favicon.svg">
+
   <meta charset=UTF-8>
   <meta name=viewport content="width=device-width,initial-scale=1">
   <link href="./css/0.css" rel="stylesheet">
-
+  <link href="./css/1.css" rel="stylesheet">
   <script type=application/ld+json>
     {
       "@context": "https://schema.org/",
@@ -35,49 +36,47 @@
   <div>
    <h1>QR Code Generator</h1>
   </div>
-  <div class=editor>
-    <textarea data-gramm_editor="false" id="qrcode-href" value="" placeholder="Type here..."></textarea>
-    <div id=qrcode-img>
-      <img id=placeholder-img>
-    </div>
-   </div>
+  <div class="editor">
+    
+    <div><textarea data-gramm_editor="false" id="qrcode-href" value="" placeholder="Type here..." style="visibility: visible;"></textarea></div>
+   <div><div id="qrcode-img"><img src="data:image/png;base64,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"><b style="bottom: 55px;">300x300<span class="split"> | </span><span id="dimg"><a id="export" download="exported_qrcode_image.png" href="data:image/png;base64,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">↓ Download image</a></span></b></div></div></div>
   
-  <div id=qrwrap>
-    <div id=form>
-      <div class=vertmid>
-        <div class=vertholder>
-          <div class=form-group id=size-setter>
-            <label for=img-size>Size of the download image (px):</label>
-            <input type=number min=1 max=99999 class=form-control id=img-size placeholder=300 value=300>
+  <div id="qrwrap">
+    <div id="form">
+      <div class="vertmid">
+        <div class="vertholder">
+          <div class="form-group" id="size-setter">
+            <label for="img-size">Size of the download image (px):</label>
+            <input type="number" min="1" max="99999" class="form-control" id="img-size" placeholder="300" value="300">
           </div>
-          <label for=cp1>Foreground Color:</label>
-          <div id=cp1 class=input-group>
-            <input type=text class="cp1text form-control input-lg"value=#000000>
-            <input type=color class="cp1color form-control input-lg"value=#000000>
+          <label for="cp1">Foreground Color:</label>
+          <div id="cp1" class="input-group">
+            <input type="text" class="cp1text form-control input-lg" value="#000000">
+            <input type="color" class="cp1color form-control input-lg" value="#000000">
           </div>
-          <label for=cp2>Background Color:</label>
-          <div id=cp2 class=input-group>
-            <input type=text class="cp2text form-control input-lg"value=#ffffff>
-            <input type=color class="cp2color form-control input-lg"value=#ffffff>
+          <label for="cp2">Background Color:</label>
+          <div id="cp2" class="input-group">
+            <input type="text" class="cp2text form-control input-lg" value="#ffffff">
+            <input type="color" class="cp2color form-control input-lg" value="#ffffff">
           </div>
           <div class="checkbox clearfix">
-            <div class=left-panel>
+            <div class="left-panel">
             <label>
-              <input id=transbg type=checkbox> <span class=transbglabel>Transparent Background</span>
+              <input id="transbg" type="checkbox"> <span class="transbglabel">Transparent Background</span>
             </label>
             </div>
-            <div class=right-panel>
-              <span id=reset>Reset</span>
+            <div class="right-panel">
+              <span id="reset">Reset</span>
             </div>
           </div>
-          <button id=save type=submit class="btn btn-primary">Save</button>
+          <button id="save" type="submit" class="btn btn-primary">Save</button>
           
-          <label id=realupload class="btn btn-info">Upload Logo
-            <input type=file id=upload name=imageLoader>
+          <label id="realupload" class="btn btn-info">Upload Logo
+            <input type="file" id="upload" name="imageLoader">
          </label>
-         <div id=instruction>
-          <u id=why>Why Choose Us?</u>
-          <ol id=whyol>
+         <div id="instruction">
+          <u id="why">Why Choose Us?</u>
+          <ol id="whyol">
             <li><b>Fast</b> and Simple.</li>
             <li>Completely <b>Free</b>.</li>
             <li><b>No registration</b> required.</li>
@@ -91,7 +90,7 @@
 
    </div> 
   
-  <div id=qrcode-img-buffer></div>
+  <div id="qrcode-img-buffer"><canvas width="200" height="200"></canvas></div>
 
   
 </div>

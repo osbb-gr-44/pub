@@ -118,7 +118,7 @@ button#qrcode-regenerate:active {
 	justify-content: center;
 	align-items: center;
 }
-.main:nth-child(n){
+.main > *{
     display: flex;
   }
 .saved_bubble {
