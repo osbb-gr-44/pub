@@ -396,7 +396,7 @@ aloadJS(
             ecLevel: 'L',
             left: 0,
             top: 0,
-            size: 200,
+            size: 300,
             fill: '#000',
             background: null,
             text: 'no text',
