@@ -44,9 +44,6 @@
         #qrcode-href
             width 60%
 
-        #qrcode-img
-            width 100%
-
     .sets
         flex-direction row
         justify-content center
@@ -57,7 +54,13 @@
             align-items center
             flex-direction column
             margin 0
+            padding 4.5% 15% 0.5% 15%
             white-space nowrap
+
+    .editor #qrcode-img, .sets #qrwrap #form
+        float unset
+        height 100%
+        width 100%
 
     .editor
         #qrcode-href, #qrcode-img
