@@ -16,6 +16,7 @@
         padding 1em 0 2em 0
 
     .editor
+        align-items flex-start
         flex-direction row
         justify-content center
 
@@ -57,16 +58,17 @@
             margin 0
             white-space nowrap
 
-.main .editor #qrcode-href, .main .editor #qrcode-img
-    align-items flex-start
-    flex-direction column
-    width 60%
+    .editor
+        #qrcode-href, #qrcode-img
+            align-items flex-start
+            flex-direction column
+            width 60%
 
-.main .editor #qrcode-img canvas, .main .editor #qrcode-img img
-    position static
-    top 0
-    transform none
-    -moz-transform none
-    -ms-transform none
-    -o-transform none
-    -webkit-transform none
+        #qrcode-img canvas, #qrcode-img img
+            position static
+            top 0
+            transform none
+            -moz-transform none
+            -ms-transform none
+            -o-transform none
+            -webkit-transform none
