@@ -21,15 +21,6 @@ function cssLoaded () {
   pickerCssLoaded()
 }
 function pickerCssLoaded () {
-  aloadJS(
-    'https://s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5d4ef23adc8f9863',
-    function () {
-      setInterval(function () {
-        10 < $('#atstbx').height() &&
-          $('.addthis_inline_share_toolbox').removeClass('atph')
-      }, 50)
-    }
-  ),
     $('#why').click(function () {
       ga('send', 'pageview', '/why'), $('#whyol').toggle(99)
     }),
