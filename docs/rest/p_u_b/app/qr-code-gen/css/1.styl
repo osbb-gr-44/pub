@@ -57,22 +57,22 @@
             padding 4.5% 15% 0.5% 15%
             white-space nowrap
 
-    .editor #qrcode-img, .sets #qrwrap #form
-        float unset
-        height 100%
-        width 100%
+.main .editor #qrcode-img, .main .sets #qrwrap #form
+    float unset
+    height 100%
+    width 100%
 
-    .editor
-        #qrcode-href, #qrcode-img
-            align-items flex-start
-            flex-direction column
-            width 60%
+.main .editor #qrcode-href, .main .editor #qrcode-img
+    align-items center
+    flex-direction column
+    justify-content flex-start
+    width 60%
 
-        #qrcode-img canvas, #qrcode-img img
-            position static
-            top 0
-            transform none
-            -moz-transform none
-            -ms-transform none
-            -o-transform none
-            -webkit-transform none
+.main .editor #qrcode-img canvas, .main .editor #qrcode-img img
+    position static
+    top 0
+    transform none
+    -moz-transform none
+    -ms-transform none
+    -o-transform none
+    -webkit-transform none
