@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang=en-US>
+<title>QR Code Gen</title>
+<head>
+  <meta charset=UTF-8>
+  <meta name=viewport content="width=device-width,initial-scale=1">
+  <link href="./css/0.css" rel="stylesheet">
+</head>
+<body>
+<div class="main">
+  <h1>QR Code Generator</h1>
+  <textarea data-gramm_editor="false" id="qrcode-href" value="" placeholder="Type here..."></textarea>
+  <div id=qrwrap>
+    <div id=qrcode-img>
+      <img id=placeholder-img>
+    </div>
+    <div id=form>
+      <div class=vertmid>
+        <div class=vertholder>
+          <div class=form-group id=size-setter>
+            <label for=img-size>Size of the download image (px):</label>
+            <input type=number min=1 max=99999 class=form-control id=img-size placeholder=300 value=300>
+          </div>
+          <label for=cp1>Foreground Color:</label>
+          <div id=cp1 class=input-group>
+            <input type=text class="cp1text form-control input-lg"value=#000000>
+            <input type=color class="cp1color form-control input-lg"value=#000000>
+          </div>
+          <label for=cp2>Background Color:</label>
+          <div id=cp2 class=input-group>
+            <input type=text class="cp2text form-control input-lg"value=#ffffff>
+            <input type=color class="cp2color form-control input-lg"value=#ffffff>
+          </div>
+          <div class="checkbox clearfix">
+            <div class=left-panel>
+            <label>
+              <input id=transbg type=checkbox> <span class=transbglabel>Transparent Background</span>
+            </label>
+            </div>
+            <div class=right-panel>
+              <span id=reset>Reset</span>
+            </div>
+          </div>
+          <button id=save type=submit class="btn btn-primary">Save</button>
+          
+          <label id=realupload class="btn btn-info">Upload Logo
+            <input type=file id=upload name=imageLoader>
+         </label>
+         <div id=instruction>
+          <u id=why>Why Choose Us?</u>
+          <ol id=whyol>
+            <li><b>Fast</b> and Simple.</li>
+            <li>Completely <b>Free</b>.</li>
+            <li><b>No registration</b> required.</li>
+            <li>Everything is running in your browser, we <b>DO NOT</b> track/collect/sell your data.</li>
+          </ol>
+
+         </div>
+        </div>
+      </div>
+    </div>
+
+   </div> 
+  
+  <div id=qrcode-img-buffer></div>
+
+  
+</div>
+
+<script src="./js/0.js"></script>
+</body>
+</html>
