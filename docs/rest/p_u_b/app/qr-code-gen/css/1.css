@@ -22,7 +22,7 @@
 .main .editor {
   flex-direction: row;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
 }
 .main .editor > :first-child {
   align-content: center;
