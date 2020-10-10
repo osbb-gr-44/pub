@@ -40,7 +40,7 @@
   align-items: flex-start;
   flex-direction: column;
   height: 100%;
-  width: 100%;
+  width: 60%;
 }
 .main .editor > * #qrcode-img b {
   bottom: unset;
