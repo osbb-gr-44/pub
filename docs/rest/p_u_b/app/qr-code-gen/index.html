@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang=en-US>
 <title>QR Code Gen</title>
+
 <head>
   <link rel="icon" type="image/svg+xml" href="//pub/img/svg/video-js__favicon.svg">
 
@@ -31,70 +32,84 @@
     }
   </script>
 </head>
-<body>
-<div class="main">
-  <div>
-   <h1>QR Code Generator</h1>
-  </div>
-  <div class="editor">
-    
-    <div><textarea data-gramm_editor="false" id="qrcode-href" value="" placeholder="Type here..." style="visibility: visible;"></textarea></div>
-   <div><div id="qrcode-img"><img src="data:image/png;base64,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"><b style="bottom: 55px;">300x300<span class="split"> | </span><span id="dimg"><a id="export" download="exported_qrcode_image.png" href="data:image/png;base64,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">↓ Download image</a></span></b></div></div></div>
-  
-  <div id="qrwrap">
-    <div id="form">
-      <div class="vertmid">
-        <div class="vertholder">
-          <div class="form-group" id="size-setter">
-            <label for="img-size">Size of the download image (px):</label>
-            <input type="number" min="1" max="99999" class="form-control" id="img-size" placeholder="300" value="300">
-          </div>
-          <label for="cp1">Foreground Color:</label>
-          <div id="cp1" class="input-group">
-            <input type="text" class="cp1text form-control input-lg" value="#000000">
-            <input type="color" class="cp1color form-control input-lg" value="#000000">
-          </div>
-          <label for="cp2">Background Color:</label>
-          <div id="cp2" class="input-group">
-            <input type="text" class="cp2text form-control input-lg" value="#ffffff">
-            <input type="color" class="cp2color form-control input-lg" value="#ffffff">
-          </div>
-          <div class="checkbox clearfix">
-            <div class="left-panel">
-            <label>
-              <input id="transbg" type="checkbox"> <span class="transbglabel">Transparent Background</span>
-            </label>
-            </div>
-            <div class="right-panel">
-              <span id="reset">Reset</span>
-            </div>
-          </div>
-          <button id="save" type="submit" class="btn btn-primary">Save</button>
-          
-          <label id="realupload" class="btn btn-info">Upload Logo
-            <input type="file" id="upload" name="imageLoader">
-         </label>
-         <div id="instruction">
-          <u id="why">Why Choose Us?</u>
-          <ol id="whyol">
-            <li><b>Fast</b> and Simple.</li>
-            <li>Completely <b>Free</b>.</li>
-            <li><b>No registration</b> required.</li>
-            <li>Everything is running in your browser, we <b>DO NOT</b> track/collect/sell your data.</li>
-          </ol>
 
-         </div>
+<body>
+  <div class="main">
+
+    <div class="title">
+      <h1>QR Code Generator</h1>
+    </div>
+
+
+    <div class="editor">
+      <div><textarea data-gramm_editor="false" id="qrcode-href" value="" placeholder="Type here..."
+          style="visibility: visible;"></textarea></div>
+      <div>
+        <div id="qrcode-img">
+          <div><img
+              src="data:image/png;base64,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"><b
+              style="bottom: 55px;">300x300<span class="split"> | </span><span id="dimg"><a id="export"
+                  download="exported_qrcode_image.png"
+                  href="data:image/png;base64,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">↓
+                  Download image</a></span></b></div>
         </div>
       </div>
     </div>
+    <div id="qrwrap">
+      <div id="form">
+        <div class="vertmid">
+          <div class="vertholder">
+            <div class="form-group" id="size-setter">
+              <label for="img-size">Size of the download image (px):</label>
+              <input type="number" min="1" max="99999" class="form-control" id="img-size" placeholder="300" value="300">
+            </div>
+            <label for="cp1">Foreground Color:</label>
+            <div id="cp1" class="input-group">
+              <input type="text" class="cp1text form-control input-lg" value="#000000">
+              <input type="color" class="cp1color form-control input-lg" value="#000000">
+            </div>
+            <label for="cp2">Background Color:</label>
+            <div id="cp2" class="input-group">
+              <input type="text" class="cp2text form-control input-lg" value="#ffffff">
+              <input type="color" class="cp2color form-control input-lg" value="#ffffff">
+            </div>
+            <div class="checkbox clearfix">
+              <div class="left-panel">
+                <label>
+                  <input id="transbg" type="checkbox"> <span class="transbglabel">Transparent Background</span>
+                </label>
+              </div>
+              <div class="right-panel">
+                <span id="reset">Reset</span>
+              </div>
+            </div>
+            <button id="save" type="submit" class="btn btn-primary">Save</button>
 
-   </div> 
-  
-  <div id="qrcode-img-buffer"><canvas width="200" height="200"></canvas></div>
+            <label id="realupload" class="btn btn-info">Upload Logo
+              <input type="file" id="upload" name="imageLoader">
+            </label>
+            <div id="instruction">
+              <u id="why">Why Choose Us?</u>
+              <ol id="whyol">
+                <li><b>Fast</b> and Simple.</li>
+                <li>Completely <b>Free</b>.</li>
+                <li><b>No registration</b> required.</li>
+                <li>Everything is running in your browser, we <b>DO NOT</b> track/collect/sell your data.</li>
+              </ol>
 
-  
-</div>
+            </div>
+          </div>
+        </div>
+      </div>
 
-<script src="./js/0.js"></script>
+    </div>
+
+    <div id="qrcode-img-buffer"><canvas width="200" height="200"></canvas></div>
+
+
+  </div>
+
+  <script src="./js/0.js"></script>
 </body>
+
 </html>
