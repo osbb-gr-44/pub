@@ -45,66 +45,68 @@
       <div><textarea data-gramm_editor="false" id="qrcode-href" value="" placeholder="Type here..."
           style="visibility: visible;"></textarea></div>
       <div>
-        <div id="qrcode-img">
-          <div><img
-              src="data:image/png;base64,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"><b
-              style="bottom: 55px;">300x300<span class="split"> | </span><span id="dimg"><a id="export"
-                  download="exported_qrcode_image.png"
-                  href="data:image/png;base64,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">↓
-                  Download image</a></span></b></div>
-        </div>
+        <div id="qrcode-img"><img
+            src="data:image/png;base64,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"><b
+            style="bottom: 55px;">300x300<span class="split"> | </span><span id="dimg"><a id="export"
+                download="exported_qrcode_image.png"
+                href="data:image/png;base64,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">↓
+                Download image</a></span></b></div>
       </div>
     </div>
-    <div id="qrwrap">
-      <div id="form">
-        <div class="vertmid">
-          <div class="vertholder">
-            <div class="form-group" id="size-setter">
-              <label for="img-size">Size of the download image (px):</label>
-              <input type="number" min="1" max="99999" class="form-control" id="img-size" placeholder="300" value="300">
-            </div>
-            <label for="cp1">Foreground Color:</label>
-            <div id="cp1" class="input-group">
-              <input type="text" class="cp1text form-control input-lg" value="#000000">
-              <input type="color" class="cp1color form-control input-lg" value="#000000">
-            </div>
-            <label for="cp2">Background Color:</label>
-            <div id="cp2" class="input-group">
-              <input type="text" class="cp2text form-control input-lg" value="#ffffff">
-              <input type="color" class="cp2color form-control input-lg" value="#ffffff">
-            </div>
-            <div class="checkbox clearfix">
-              <div class="left-panel">
-                <label>
-                  <input id="transbg" type="checkbox"> <span class="transbglabel">Transparent Background</span>
-                </label>
-              </div>
-              <div class="right-panel">
-                <span id="reset">Reset</span>
-              </div>
-            </div>
-            <button id="save" type="submit" class="btn btn-primary">Save</button>
 
-            <label id="realupload" class="btn btn-info">Upload Logo
-              <input type="file" id="upload" name="imageLoader">
-            </label>
-            <div id="instruction">
-              <u id="why">Why Choose Us?</u>
-              <ol id="whyol">
-                <li><b>Fast</b> and Simple.</li>
-                <li>Completely <b>Free</b>.</li>
-                <li><b>No registration</b> required.</li>
-                <li>Everything is running in your browser, we <b>DO NOT</b> track/collect/sell your data.</li>
-              </ol>
 
+    <div class="sets">
+      <div id="qrwrap">
+        <div id="form">
+          <div class="vertmid">
+            <div class="vertholder">
+              <div class="form-group" id="size-setter">
+                <label for="img-size">Size of the download image (px):</label>
+                <input type="number" min="1" max="99999" class="form-control" id="img-size" placeholder="300"
+                  value="300">
+              </div>
+              <label for="cp1">Foreground Color:</label>
+              <div id="cp1" class="input-group">
+                <input type="text" class="cp1text form-control input-lg" value="#000000">
+                <input type="color" class="cp1color form-control input-lg" value="#000000">
+              </div>
+              <label for="cp2">Background Color:</label>
+              <div id="cp2" class="input-group">
+                <input type="text" class="cp2text form-control input-lg" value="#ffffff">
+                <input type="color" class="cp2color form-control input-lg" value="#ffffff">
+              </div>
+              <div class="checkbox clearfix">
+                <div class="left-panel">
+                  <label>
+                    <input id="transbg" type="checkbox"> <span class="transbglabel">Transparent Background</span>
+                  </label>
+                </div>
+                <div class="right-panel">
+                  <span id="reset">Reset</span>
+                </div>
+              </div>
+              <button id="save" type="submit" class="btn btn-primary">Save</button>
+
+              <label id="realupload" class="btn btn-info">Upload Logo
+                <input type="file" id="upload" name="imageLoader">
+              </label>
+              <div id="instruction">
+                <u id="why">Why Choose Us?</u>
+                <ol id="whyol">
+                  <li><b>Fast</b> and Simple.</li>
+                  <li>Completely <b>Free</b>.</li>
+                  <li><b>No registration</b> required.</li>
+                  <li>Everything is running in your browser, we <b>DO NOT</b> track/collect/sell your data.</li>
+                </ol>
+
+              </div>
             </div>
           </div>
         </div>
+
       </div>
-
     </div>
-
-    <div id="qrcode-img-buffer"><canvas width="200" height="200"></canvas></div>
+    <div id="qrcode-img-buffer"><canvas width="300" height="300"></canvas></div>
 
 
   </div>

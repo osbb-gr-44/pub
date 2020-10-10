@@ -1,66 +1,70 @@
-.main,.main > *,
-.main .editor > * ,.main #qrwrap{
+.main,
+.main > *,
+.main .editor > *,
+.main .editor > * > *,
+.main .sets #qrwrap {
   display: flex;
-  margin: 0;
 }
 .main {
-  width: 100vw;
-  flex-direction: column;
   align-items: center;
+  flex-direction: column;
   justify-content: center;
+  width: 100vw;
 }
 .main > * {
   width: 90vw;
 }
-.main .title
-{
+.main .title {
   align-items: center;
   justify-content: center;
   padding: 1em 0 2em 0;
 }
 .main .editor {
   flex-direction: row;
+  justify-content: center;
 }
-
-.main .editor > *:last-child {
-  justify-content: start;
-  width: 50%;
+.main .editor > :first-child {
   align-content: center;
+  justify-content: end;
+  padding: 4% 2% 0 0;
+  width: 50%;
+}
+.main .editor > *:last-child {
+  align-content: center;
+  justify-content: start;
   padding: 2% 0 0 2%;
+  width: 50%;
 }
-.main .editor #qrcode-href {
-  /*! width: 40%; */
-  /*! height: 70%; */
-}
+.main .editor #qrcode-href,
 .main .editor #qrcode-img {
-  width: 60%;
-  height: 100%;
-  flex-direction: column;
   align-items: flex-start;
-}
-.main .editor #qrcode-img  > *{
-    height: 100%;
-    display: inline-flex;
-    flex-direction: column;
-}
-.main .editor #qrcode-img canvas, .main .editor #qrcode-img img, .vertmid {
-	top: unset;
-	position: unset;
-	-webkit-transform: none;
-	-ms-transform: none;
-	transform: none;
-}
-.main .editor #qrcode-img  > * b {
-	position: unset;
-	left: unset;
-	bottom: unset;
-	transform: none;
-}
-.main #qrwrap{
-
   flex-direction: column;
-  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+.main .editor > * #qrcode-img b {
+  bottom: unset;
+  left: unset;
+  position: unset;
+  transform: none;
+}
+.main .sets {
+  flex-direction: row;
+  justify-content: center;
   padding: 4.5% 15% 0.5% 15%;
+  white-space: nowrap;
+}
+.main #qrwrap {
+  align-items: center;
+  flex-direction: column;
   margin: 0;
-
+  white-space: nowrap;
+}
+.main .editor #qrcode-img canvas,
+.main .editor #qrcode-img img {
+  position: unset;
+  top: unset;
+  transform: none;
+  -ms-transform: none;
+  -webkit-transform: none;
 }
