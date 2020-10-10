@@ -18,6 +18,7 @@
   align-items: center;
   justify-content: center;
   padding: 1em 0 2em 0;
+  flex-direction: column;
 }
 .main .editor {
   flex-direction: row;
