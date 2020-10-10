@@ -23,7 +23,8 @@
     flex-direction: column;
     width: auto;
   }
-  .main .editor > :last-child {
+
+  body .main .editor > :last-child {
     align-content: center;
     justify-content: center;
     padding: 2% 0 0 2%;
@@ -31,5 +32,8 @@
   }
   .main .sets {
     padding: 4.5% 1% 0.5% 1%;
+  }
+  .main .sets #qrwrap #form .vertholder #size-setter {
+    display: block;
   }
 }
