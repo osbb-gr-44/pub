@@ -111,16 +111,9 @@ button#qrcode-regenerate:active {
   max-height: 410px;
 }
 .main {
-	margin: 0 auto;
-	text-align: center;
-	display: inline-flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
+  margin: 0 auto;
+  text-align: center;
 }
-.main > *{
-    display: flex;
-  }
 .saved_bubble {
   font-size: 14px;
   padding-left: 23px;
