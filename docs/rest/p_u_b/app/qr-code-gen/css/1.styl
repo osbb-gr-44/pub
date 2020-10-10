@@ -1,4 +1,8 @@
-.main, .main > *, .main .editor > *, .main .editor > * > *, .main .sets #qrwrap
+.main,
+.main > div,
+.main .editor > div,
+.main .editor > div > div,
+.main .sets #qrwrap
     display flex
 
 .main
@@ -6,60 +10,59 @@
     flex-direction column
     justify-content center
     width 100vw
-
-    & > *
+    & > div
         width 90vw
-
     .title
         align-items center
         justify-content center
         padding 1em 0 2em 0
-
     .editor
         flex-direction row
         justify-content center
-
         & > :first-child
             align-content center
-            justify-content end
+            justify-content flex-end
             padding 4% 2% 0 0
             width 50%
-
-        & > *:last-child
-            align-content center
-            justify-content start
-            padding 2% 0 0 2%
-            width 50%
-
-        #qrcode-href, #qrcode-img
-            align-items flex-start
-            flex-direction column
-            height 100%
-            width 60%
-
-        & > *
+        & > div
+            &:last-child
+                align-content center
+                justify-content flex-start
+                padding 2% 0 0 2%
+                width 50%
             #qrcode-img
                 b
-                    bottom unset
-                    left unset
-                    position unset
+                    bottom 0
+                    left 0
+                    position static
                     transform none
-
+        #qrcode-href
+            width 60%
+        #qrcode-img
+            width 100%
     .sets
         flex-direction row
         justify-content center
         padding 4.5% 15% 0.5% 15%
         white-space nowrap
+        #qrwrap
+            align-items center
+            flex-direction column
+            margin 0
+            white-space nowrap
 
-    #qrwrap
-        align-items center
+    .editor #qrcode-href,
+    .editor #qrcode-img
+        align-items flex-start
         flex-direction column
-        margin 0
-        white-space nowrap
+        width 60%
 
-.main .editor #qrcode-img canvas, .main .editor #qrcode-img img
-    position unset
-    top unset
-    transform none
-    -ms-transform none
-    -webkit-transform none
+    .editor #qrcode-img canvas,
+    .editor #qrcode-img img
+        position static
+        top 0
+        -moz-transform none
+        -webkit-transform none
+        -o-transform none
+        -ms-transform none
+        transform none

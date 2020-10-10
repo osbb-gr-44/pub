@@ -1,7 +1,7 @@
 .main,
-.main > *,
-.main .editor > *,
-.main .editor > * > *,
+.main > div,
+.main .editor > div,
+.main .editor > div > div,
 .main .sets #qrwrap {
   display: flex;
 }
@@ -11,7 +11,7 @@
   justify-content: center;
   width: 100vw;
 }
-.main > * {
+.main > div {
   width: 90vw;
 }
 .main .title {
@@ -25,35 +25,27 @@
 }
 .main .editor > :first-child {
   align-content: center;
-  justify-content: end;
+  justify-content: flex-end;
   padding: 4% 2% 0 0;
   width: 50%;
 }
-.main .editor > *:last-child {
+.main .editor > div:last-child {
   align-content: center;
-  justify-content: start;
+  justify-content: flex-start;
   padding: 2% 0 0 2%;
   width: 50%;
 }
-.main .editor #qrcode-href,
-.main .editor #qrcode-img {
-  align-items: flex-start;
-  flex-direction: column;
-
-  width: 60%;
+.main .editor > div #qrcode-img b {
+  bottom: 0;
+  left: 0;
+  position: static;
+  transform: none;
 }
 .main .editor #qrcode-href {
   width: 60%;
 }
-
 .main .editor #qrcode-img {
   width: 100%;
-}
-.main .editor > * #qrcode-img b {
-  bottom: unset;
-  left: unset;
-  position: unset;
-  transform: none;
 }
 .main .sets {
   flex-direction: row;
@@ -67,11 +59,19 @@
   margin: 0;
   white-space: nowrap;
 }
+.main .editor #qrcode-href,
+.main .editor #qrcode-img {
+  align-items: flex-start;
+  flex-direction: column;
+  width: 60%;
+}
 .main .editor #qrcode-img canvas,
 .main .editor #qrcode-img img {
-  position: unset;
-  top: unset;
-  transform: none;
-  -ms-transform: none;
+  position: static;
+  top: 0;
+  -moz-transform: none;
   -webkit-transform: none;
+  -o-transform: none;
+  -ms-transform: none;
+  transform: none;
 }

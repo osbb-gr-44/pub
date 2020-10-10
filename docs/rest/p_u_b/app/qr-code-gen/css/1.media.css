@@ -1,0 +1,29 @@
+@media (max-width: 1024px) {
+  .main .editor {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .main .editor > :first-child {
+    align-content: center;
+    justify-content: center;
+    padding: 4% 2% 0 0;
+    width: 100%;
+  }
+  .main .editor #qrcode-img {
+    align-items: center;
+    flex-direction: column;
+    padding: 7% 0 0 0;
+    width: 60%;
+  }
+  .main .editor #qrcode-img img {
+    align-items: center;
+    flex-direction: column;
+    width: auto;
+  }
+  .main .editor > :last-child {
+    align-content: center;
+    justify-content: center;
+    padding: 2% 0 0 2%;
+    width: 100%;
+  }
+}
