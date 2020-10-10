@@ -1544,7 +1544,7 @@ aloadJS(
       e.html(''), a(e, t, r), l()
     }
     function a (r, e, t) {
-      console.log('size:', e)
+
       var n = '0'
       if (
         ('#ffffff' != f && (n = '1'),
