@@ -75,7 +75,7 @@ window.initFirebaseDb = function (_ctr) {
 
     // Loads the last 20 messages and listen for new ones.
     var setMessage = function (data) {
-      _ctr.fbDbReceive(data)
+      _ctr.fbDbReceive(data.key, data.val())
     }
     messagesRef.limitToLast(20).on('child_added', setMessage)
     messagesRef.limitToLast(20).on('child_changed', setMessage)
