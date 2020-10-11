@@ -4,24 +4,25 @@ var addScriptNext = (src_url, cb) => {
   } else {
     return new Promise((resolve, reject) => {
       ;((src_url, cb) => {
+        var _opt = 0
+
+        if (typeof src_url === 'object') {
+          _opt = src_url
+          src_url = _opt.url
+        }
+
         if (
           ![].slice
             .call(document.querySelectorAll('script[src]'))
             .find(_ => _.getAttribute('src') === src_url)
         ) {
           var script = document.createElement('script')
-          if (typeof src_url === 'object') {
-            var _opt = src_url
-            script.src = _opt.url
-            if (_opt.attr) {
-              Object.keys(_opt.attr).map(_ => {
-                script.setAttribute(_, _opt.attr[_])
-              })
-            }
-          } else {
-            script.src = src_url
-          }
 
+          if (_opt && _opt.attr) {
+            Object.keys(_opt.attr).map(_ => {
+              script.setAttribute(_, _opt.attr[_])
+            })
+          }
           script.type = 'text/javascript' // no need for HTML5
           cb(script)
           document.getElementsByTagName('body')[0].appendChild(script) // for IE6
@@ -66,13 +67,7 @@ window.initFirebaseDb = function (_ctr) {
     // Loads the last 20 messages and listen for new ones.
     var setMessage = function (data) {
       var val = data.val()
-      _ctr.fbDbReceive(
-        data.key,
-        val.name,
-        val.text,
-        val.photoUrl,
-        val.imageUrl
-      )
+      _ctr.fbDbReceive(data.key, val.name, val.text, val.photoUrl, val.imageUrl)
     }
     messagesRef.limitToLast(20).on('child_added', setMessage)
     messagesRef.limitToLast(20).on('child_changed', setMessage)
