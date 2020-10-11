@@ -23,6 +23,7 @@ var addScriptNext = (src_url, cb) => {
               script.setAttribute(_, _opt.attr[_])
             })
           }
+          script.src = src_url
           script.type = 'text/javascript' // no need for HTML5
           cb(script)
           document.getElementsByTagName('body')[0].appendChild(script) // for IE6
