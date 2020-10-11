@@ -59,17 +59,23 @@ window.initFirebaseDb = function (_ctr) {
     var database = firebase.database()
     _ctr.__fbDb = {}
     _ctr.__fbDb.db = database
-    _ctr.__fbDb.send = _d => firebase.database().ref(_ctr.idx+'/'+_d.id).set(_d)
+    _ctr.__fbDb.send = _d =>
+      firebase
+        .database()
+        .ref(_ctr.idx + '/' + _d.id)
+        .set(_d)
     // Reference to the /messages/ database path.
-    var messagesRef = database.ref(_ctr.idx)
+
+    var messagesRef = _ctr.orderRef
+      ? database.ref(_ctr.idx).orderByChild(_ctr.orderRef)
+      : database.ref(_ctr.idx)
 
     // Make sure we remove all previous listeners.
     messagesRef.off()
 
     // Loads the last 20 messages and listen for new ones.
     var setMessage = function (data) {
-      var val = data.val()
-      _ctr.fbDbReceive(data.key, val.name, val.text, val.photoUrl, val.imageUrl)
+      _ctr.fbDbReceive(data)
     }
     messagesRef.limitToLast(20).on('child_added', setMessage)
     messagesRef.limitToLast(20).on('child_changed', setMessage)
