@@ -42,7 +42,7 @@ var addScriptNext = (src_url, cb) => {
   }
 }
 
-var initFirebaseDb = function (_ctr) {
+window.initFirebaseDb = function (_ctr) {
   addScriptNext(
     'https://www.gstatic.com/firebasejs/3.6.9/firebase.js',
     () => window.firebase
