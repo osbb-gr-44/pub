@@ -60,7 +60,7 @@ window.initFirebaseDb = function (_ctr) {
     _ctr.__fbDb = {}
     _ctr.__fbDb.send = _d => messagesRef.push(_d)
     // Reference to the /messages/ database path.
-    var messagesRef = database.ref('messages')
+    var messagesRef = database.ref(_ctr.idx)
 
     // Make sure we remove all previous listeners.
     messagesRef.off()
