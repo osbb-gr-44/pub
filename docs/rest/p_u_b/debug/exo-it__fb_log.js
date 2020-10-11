@@ -58,6 +58,8 @@ window.initFirebaseDb = function (_ctr) {
     })
     var database = firebase.database()
     _ctr.__fbDb = {}
+    _ctr.__fbDb.db = database
+    _ctr.__fbDb._rf= _ctr.idx+'/'+_d.id
     _ctr.__fbDb.send = _d => messagesRef.ref(_d.id).set(_d)
     // Reference to the /messages/ database path.
     var messagesRef = database.ref(_ctr.idx)
