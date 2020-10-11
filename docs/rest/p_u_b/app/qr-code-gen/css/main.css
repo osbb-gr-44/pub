@@ -84,3 +84,45 @@
   -ms-transform: none;
   transform: none;
 }
+
+@media (max-width: 780px) {
+  .main .editor {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .main .editor > :first-child {
+    align-content: center;
+    justify-content: center;
+    padding: 4% 2% 0 0;
+    width: 100%;
+  }
+  .main .editor #qrcode-img {
+    align-items: center;
+    flex-direction: column;
+    padding: 7% 0 0 0;
+    width: 100%;
+  }
+  .main .editor #qrcode-img b {
+    display: block;
+  }
+  .main .editor #qrcode-img img {
+    align-items: center;
+    flex-direction: column;
+    width: auto;
+  }
+
+  body .main .editor > :last-child {
+    align-content: center;
+    justify-content: center;
+    padding: 2% 0 0 2%;
+    width: 100%;
+  }
+  .main .sets {
+    padding: 4.5% 1% 0.5% 1%;
+  }
+  .main .sets #qrwrap #form .vertholder #size-setter,
+  .main .sets #qrwrap #form .vertholder .checkbox {
+    display: block;
+  }
+}
+

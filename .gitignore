@@ -27,7 +27,15 @@
 # игнорировать все файлы в каталоге docs/video/data
 /pub/docs/video/data/
 
-# игнорировать все каталог в **/src/
+# игнорировать все каталоге в **/src/
 /**/src/
+/**/webpack/
+
 docs/README.md
 stylExecutable.md
+/**/*.styl
+/**/* copy.*
+/**/*.example.*
+
+
+node_modules
