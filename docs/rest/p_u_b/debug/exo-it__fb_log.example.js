@@ -3,5 +3,10 @@
  */
 
 initFirebaseDb({ fbDbReceive: console.log })
-
+__log({
+  id: '{gen:id}',
+  t: 'Budni Osbb Z Ihorem Michudoyu Hist Olifer Serhiy',
+  p: 'http://127.0.0.1:8080/2.jpg',
+  m3u8: 'http://127.0.0.1:8080/v.m3u8'
+})
 _ctr.__fbDb.send({ idx: 'video-js:dbg', d: { t: 1.745577, v: 0.2 } })
