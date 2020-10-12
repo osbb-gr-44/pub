@@ -59,21 +59,19 @@ window.initFirebaseDb = function (_ctr) {
     var database = firebase.database()
     _ctr.__fbDb = {}
     _ctr.__fbDb.db = database
-    _ctr.__fbDb.del = () => {
+    _ctr.__fbDb.del = () =>
       firebase
         .database()
-        .ref(_ctr.idx + '/' + _d.id)
+        .ref(_ctr.idx)
         .remove()
-    }
-    _ctr.__fbDb.val = () => {
-      var messagesRef = _ctr.orderRef
-        ? firebase
-            .database()
-            .ref(_ctr.idx + '/' + _d.id)
-            .orderByChild(_ctr.orderRef)
-        : firebase.database().ref(_ctr.idx + '/' + _d.id)
-      return messagesRef.once('value').then(snapshot => snapshot.val())
-    }
+
+    _ctr.__fbDb.val = () =>
+      firebase
+        .database()
+        .ref(_ctr.idx)
+        .once('value')
+        .then(snapshot => snapshot.val())
+
     _ctr.__fbDb.send = _d =>
       firebase
         .database()
