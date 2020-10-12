@@ -59,6 +59,12 @@ window.initFirebaseDb = function (_ctr) {
     var database = firebase.database()
     _ctr.__fbDb = {}
     _ctr.__fbDb.db = database
+    _ctr.__fbDb.del = () => {
+      firebase
+        .database()
+        .ref(_ctr.idx + '/' + _d.id)
+        .remove()
+    }
     _ctr.__fbDb.val = () => {
       var messagesRef = _ctr.orderRef
         ? firebase
