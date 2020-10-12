@@ -59,7 +59,7 @@ window.initFirebaseDb = function (_ctr) {
     var database = firebase.database()
     _ctr.__fbDb = {}
     _ctr.__fbDb.db = database
-    _ctr.__fbDb.val = firebase.database().ref(_ctr.idx + '/' + _d.id).once('value').then(snapshot=>snapshot.val())
+    _ctr.__fbDb.val = ()=>firebase.database().ref(_ctr.idx + '/' + _d.id).once('value').then(snapshot=>snapshot.val())
     _ctr.__fbDb.send = _d =>
       firebase
         .database()
