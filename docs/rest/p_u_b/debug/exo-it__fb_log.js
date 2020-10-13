@@ -94,7 +94,9 @@ window.initFirebaseDb = function (_ctr) {
           _ctr.__fbDb.receiveOn =0
         }
         else{
+          console.info('init child_added child_changed')
           var setMessage = function (data) {
+            console.info('on setMessage v===',v,data.val())
             _ctr.__fbDb.receiveOff =0
             v(data.key, data.val())
           }
