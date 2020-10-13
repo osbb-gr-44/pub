@@ -88,9 +88,9 @@ window.initFirebaseDb = function (_ctr) {
 
     Object.defineProperty(_ctr, 'fbDbReceive', {
       set: function(v) { 
+        messagesRef.off()
         if(!v)
         {
-          messagesRef.off()
           _ctr.__fbDb.receiveOn =0
         }
         else{
