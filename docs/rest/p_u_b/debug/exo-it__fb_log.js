@@ -94,7 +94,7 @@ window.initFirebaseDb = function (_ctr) {
           receiveFn = v
           messagesRef.off()
           var setMessage = function (data) {
-            console.info('on setMessage v===', v, data.val())
+            console.log('on setMessage v===', v, data.val())
             receiveFn(data.key, data.val())
           }
           messagesRef.limitToLast(20).on('child_added', setMessage)
