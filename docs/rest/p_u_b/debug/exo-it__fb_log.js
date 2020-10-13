@@ -89,13 +89,11 @@ window.initFirebaseDb = function (_ctr) {
 
     Object.defineProperty(_ctr.__fbDb, 'receive', {
       set: function (v) {
-        console.log(`Setting the property "receive" to ${v}.`)
         if (v) {
           receiveFn = v
           messagesRef.off()
           var setMessage = function (data) {
-            console.log('on setMessage v===', v, data.val())
-            receiveFn(data.key, data.val())
+            receiveFn('on setMessage', data.key, data.val())
           }
           messagesRef.limitToLast(20).on('child_added', setMessage)
           messagesRef.limitToLast(20).on('child_changed', setMessage)
