@@ -88,6 +88,7 @@ window.initFirebaseDb = function (_ctr) {
 
     Object.defineProperty(_ctr, 'fbDbReceive', {
       set: function(v) { 
+        console.info('Object.defineProperty(_ctr, fbDbReceive, {')
         messagesRef.off()
         if(!v)
         {
