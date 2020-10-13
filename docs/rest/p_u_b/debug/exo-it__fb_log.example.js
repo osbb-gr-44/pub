@@ -22,3 +22,6 @@ _ctr.__fbDb.send({ idx: 'video-js:dbg', d: { t: 1.745577, v: 0.2 } })
 _ctr.opt.__fbDb.val().then(val=>console.log(val))
 
 _ctr.opt.__fbDb.del()
+
+__log.__fbCon.fbDbReceive=console.info
+__log({'adasd':672})

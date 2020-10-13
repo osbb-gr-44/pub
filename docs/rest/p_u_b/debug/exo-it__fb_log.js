@@ -91,12 +91,12 @@ window.initFirebaseDb = function (_ctr) {
         if(!v)
         {
           messagesRef.off()
-          _ctr.__fbDb.receive =0
+          _ctr.__fbDb.receiveOn =0
         }
         else{
           var setMessage = function (data) {
-            _ctr.__fbDb.receive =v
-            _ctr.__fbDb.receive(data.key, data.val())
+            _ctr.__fbDb.receiveOff =0
+            v(data.key, data.val())
           }
           messagesRef.limitToLast(20).on('child_added', setMessage)
           messagesRef.limitToLast(20).on('child_changed', setMessage)
