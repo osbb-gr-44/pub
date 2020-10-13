@@ -84,16 +84,16 @@ window.initFirebaseDb = function (_ctr) {
       : database.ref(_ctr.idx)
 
     // Make sure we remove all previous listeners.
-    messagesRef.off()
+    // messagesRef.off()
 
     
     var receiveFn = 0
 
     Object.defineProperty(_ctr.__fbDb, 'receive', {
       set: function (v) {
+        messagesRef.off()
         if (v) {
           receiveFn = v
-          messagesRef.off()
           var setMessage = function (data) {
             receiveFn('on setMessage', data.key, data.val())
           }
