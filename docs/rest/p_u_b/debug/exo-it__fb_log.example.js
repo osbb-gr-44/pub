@@ -17,3 +17,8 @@ __log({
     m3u8: 'http://127.0.0.1:8080/v.m3u8'
   })
 _ctr.__fbDb.send({ idx: 'video-js:dbg', d: { t: 1.745577, v: 0.2 } })
+
+
+_ctr.opt.__fbDb.val().then(val=>console.log(val))
+
+_ctr.opt.__fbDb.del()

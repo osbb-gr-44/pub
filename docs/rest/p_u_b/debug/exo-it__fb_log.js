@@ -86,12 +86,25 @@ window.initFirebaseDb = function (_ctr) {
     // Make sure we remove all previous listeners.
     messagesRef.off()
 
-    // Loads the last 20 messages and listen for new ones.
-    var setMessage = function (data) {
-      _ctr.fbDbReceive(data.key, data.val())
-    }
-    messagesRef.limitToLast(20).on('child_added', setMessage)
-    messagesRef.limitToLast(20).on('child_changed', setMessage)
+    Object.defineProperty(_ctr, 'fbDbReceive', {
+      set: function(v) { 
+        if(!v)
+        {
+          messagesRef.off()
+          _ctr.__fbDb.receive =0
+        }
+        else{
+          var setMessage = function (data) {
+            _ctr.__fbDb.receive =v
+            _ctr.__fbDb.receive(data.key, data.val())
+          }
+          messagesRef.limitToLast(20).on('child_added', setMessage)
+          messagesRef.limitToLast(20).on('child_changed', setMessage)
+        }
+      } ,
+      get: function() { return _ctr.__fbDb.receive }  
+  });
+
   })
   return _ctr
 }
