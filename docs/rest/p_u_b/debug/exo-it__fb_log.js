@@ -85,29 +85,28 @@ window.initFirebaseDb = function (_ctr) {
 
     // Make sure we remove all previous listeners.
     messagesRef.off()
-    var receiveFn =0
-    Object.defineProperty(_ctr.__fbDb, 'receive', {
-      set: function(v) { 
-        console.info('Object.defineProperty(_ctr, fbDbReceive, {')
-        messagesRef.off()
-        if(!v)
-        {
+    var receiveFn = 0
 
-        }
-        else{
-          receiveFn=v
-          console.info('init child_added child_changed')
+    Object.defineProperty(_ctr.__fbDb, 'receive', {
+      set: function (v) {
+        console.log(`Setting the property "receive" to ${v}.`)
+        if (v) {
+          receiveFn = v
+          messagesRef.off()
           var setMessage = function (data) {
-            console.info('on setMessage v===',v,data.val())
+            console.info('on setMessage v===', v, data.val())
             receiveFn(data.key, data.val())
           }
           messagesRef.limitToLast(20).on('child_added', setMessage)
           messagesRef.limitToLast(20).on('child_changed', setMessage)
+        } else {
+          receiveFn = 0
         }
-      } ,
-      get: function() { return receiveFn }  
-  });
-
+      },
+      get: function () {
+        return receiveFn
+      }
+    })
   })
   return _ctr
 }
