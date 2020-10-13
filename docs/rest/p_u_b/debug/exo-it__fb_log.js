@@ -86,19 +86,18 @@ window.initFirebaseDb = function (_ctr) {
     // Make sure we remove all previous listeners.
     messagesRef.off()
 
-    Object.defineProperty(_ctr, 'fbDbReceive', {
+    Object.defineProperty(_ctr.__fbDb, 'receive', {
       set: function(v) { 
         console.info('Object.defineProperty(_ctr, fbDbReceive, {')
         messagesRef.off()
         if(!v)
         {
-          _ctr.__fbDb.receiveOn =0
+
         }
         else{
           console.info('init child_added child_changed')
           var setMessage = function (data) {
             console.info('on setMessage v===',v,data.val())
-            _ctr.__fbDb.receiveOff =0
             v(data.key, data.val())
           }
           messagesRef.limitToLast(20).on('child_added', setMessage)
