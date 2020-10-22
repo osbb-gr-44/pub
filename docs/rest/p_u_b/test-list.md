@@ -6,13 +6,5 @@
 </div>
 </div>
 
-@ECHO OFF
-git config user.name "Юрій Панасюк"
-git config user.email 62154797+osbb-gr-44@users.noreply.github.com
-git remote add pub https://github.com/osbb-gr-44/pub.git
-git add .
-git commit -m "master commit"
-git push origin master -u -f
-REM CD ./
  -->
 
