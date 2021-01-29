@@ -1,4 +1,4 @@
-#### [origin](https://osbb-gr-44.web.app/#/read--url-md?url=https://osbb-gr-44.github.io/pub/blog/pryvatbank-avtoklient__viber-bot/about.md)
+#### [origin](https://osbb-gr-44.web.app/?sets-id=3#/read--url-md?sets-id=2&url=https%3A%2F%2Fosbb-gr-44.github.io%2Fpub%2Fblog%2Fpryvatbank-avtoklient__viber-bot%2Fabout.md)
 ## «Viber-Бот»
 
 <div style="font-size:1.4em;font-weight: bold;padding: 1.3em 0 0.8em 2.6em;color: #6d3d93;"><p> - сторінка нашого ОСББ у Viber месенджері для оперативного отримання важливої інформації та повідомлень «ВАШОГО РАХУНКУ» - на яку мають право всі мешканці нашого будинку. </p></div>
