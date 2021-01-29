@@ -1,4 +1,4 @@
-#### [origin](https://osbb-gr-44.web.app/#/read--url-md?url=https://osbb-gr-44.github.io/pub//blog/control/BovgyraHalynaMykolayivna.md)
+#### [origin](https://osbb-gr-44.web.app/#/read--url-md?url=https://osbb-gr-44.github.io/pub/blog/control/BovgyraHalynaMykolayivna.md)
 
 # Дещо по фонду енергоефективності 
 
