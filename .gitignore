@@ -27,7 +27,7 @@
 /pub/docs/frame/disqus.html
 
 # игнорировать все файлы в каталоге docs/video/data
-docs/video/data/**/*.*
+# docs/video/data/**/*.*
 # docs/video/**.*
 # !docs/video/videojs
 
