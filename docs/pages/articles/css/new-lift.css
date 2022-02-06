@@ -1,0 +1,30 @@
+
+  .article-new-lift .q-markdown {
+    font-family: 'Open Sans', sans-serif, Arial, Helvetica;
+    color: #fcff49;
+    text-shadow: 0 0 1px #fcff49, 0 0 1.1px #fcff49, 0 0 1.2px #0028ff, 0 0 1.2px #0028ff, 0 0 1.2px #0028ff, 0 0 1.2px #0028ff, 0 0 1.2px #0028ff, 0 0 1.2px #0028ff, 0 0 1.2px #0028ff, 0 0 1.4px #0028ff, 0 0 1.4px #0028ff, 0 0 1.4px #0028ff, 0 0 1.4px #0028ff, 0 0 1.4px #0028ff, 0 0 1.4px #0028ff, 0 0 1.4px #0028ff, 0 0 1.6px #0028ff, 0 0 1.6px #0028ff, 0 0 1.6px #0028ff, 0 0 1.6px #0028ff, 0 0 1.6px #0028ff, 0 0 1.6px #0028ff, 0 0 1.6px #0028ff, 0 0 1.8px #0028ff, 0 0 1.8px #0028ff, 0 0 1.8px #0028ff, 0 0 1.8px #0028ff, 0 0 1.8px #0028ff, 0 0 1.8px #0028ff, 0 0 1.8px #0028ff, 0 0 2px #0028ff, 0 0 2px #0028ff, 0 0 2px #0028ff, 0 0 2px #0028ff, 0 0 2px #0028ff, 0 0 2px #0028ff, 0 0 2px #0028ff, 0 0 2.2px #0028ff, 0 0 2.2px #0028ff, 0 0 2.2px #0028ff, 0 0 2.2px #0028ff, 0 0 2.2px #0028ff, 0 0 2.2px #0028ff, 0 0 2.2px #0028ff, 0 0 2.4px #0028ff, 0 0 2.4px #0028ff, 0 0 2.4px #0028ff, 0 0 2.4px #0028ff, 0 0 2.4px #0028ff, 0 0 2.4px #0028ff, 0 0 2.4px #0028ff, 0 0 2.6px #0028ff, 0 0 2.6px #0028ff, 0 0 2.6px #0028ff, 0 0 2.6px #0028ff, 0 0 2.6px #0028ff, 0 0 2.6px #0028ff, 0 0 2.6px #0028ff;
+  }
+  .article-new-lift .q-markdown--heading-h3 {
+    padding: 0.45rem 1.3em;
+  }
+  .article-new-lift p {
+    text-indent: 1.7em;
+    color: #0028ff;
+    padding: 0 1em;
+    text-shadow: 0 0 1px #0028ff, 0 0 1px #0028ff, 0 0 1px #0028ff, 0 0 1px #0028ff, 0 0 1.2px #fcff49, 0 0 1.2px #fcff49, 0 0 1.2px #fcff49, 0 0 1.2px #fcff49, 0 0 1.2px #fcff49, 0 0 1.2px #fcff49, 0 0 1.2px #fcff49, 0 0 1.4px #fcff49, 0 0 1.4px #fcff49, 0 0 1.4px #fcff49, 0 0 1.4px #fcff49, 0 0 1.4px #fcff49, 0 0 1.4px #fcff49, 0 0 1.4px #fcff49, 0 0 1.6px #fcff49, 0 0 1.6px #fcff49, 0 0 1.6px #fcff49, 0 0 1.6px #fcff49, 0 0 1.6px #fcff49, 0 0 1.6px #fcff49, 0 0 1.6px #fcff49, 0 0 1.8px #fcff49, 0 0 1.8px #fcff49, 0 0 1.8px #fcff49, 0 0 1.8px #fcff49, 0 0 1.8px #fcff49, 0 0 1.8px #fcff49, 0 0 1.8px #fcff49, 0 0 2px #fcff49, 0 0 2px #fcff49, 0 0 2px #fcff49, 0 0 2px #fcff49, 0 0 2px #fcff49, 0 0 2px #fcff49, 0 0 2px #fcff49, 0 0 2.2px #fcff49, 0 0 2.2px #fcff49, 0 0 2.2px #fcff49, 0 0 2.2px #fcff49, 0 0 2.2px #fcff49, 0 0 2.2px #fcff49, 0 0 2.2px #fcff49, 0 0 2.4px #fcff49, 0 0 2.4px #fcff49, 0 0 2.4px #fcff49, 0 0 2.4px #fcff49, 0 0 2.4px #fcff49, 0 0 2.4px #fcff49, 0 0 2.4px #fcff49, 0 0 2.6px #fcff49, 0 0 2.6px #fcff49, 0 0 2.6px #fcff49, 0 0 2.6px #fcff49, 0 0 2.6px #fcff49, 0 0 2.6px #fcff49, 0 0 2.6px #fcff49;
+  }
+  .article-new-lift p img.q-markdown--image {
+    max-width: 80%;
+    padding: 3% 0 3% 10%;
+  }
+  .article-new-lift p a.q-markdown--link {
+    border-bottom: 2px double currentColor;
+    padding-bottom: 0.4px;
+  }
+  .article-new-lift p a.q-markdown--link.q-markdown--link-external::after {
+    display: inline;
+    direction: rtl;
+    margin: 0;
+    padding: 0 3px 0 4px;
+  }
+  

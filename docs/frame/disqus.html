@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width"
+    />
+    <meta http-equiv="Access-Control-Allow-Origin" content="*" /> 
+    <title>**===333---***</title>
+    <meta name="description" content="DISQUS_SETS->descr" />
+    <link rel="canonical" href="DISQUS_SETS->canonical" />
+  </head>
+  <body>
+    <div id="disqus_thread"></div>
+    <script  type="text/javascript">
+      document.addEventListener("DOMContentLoaded", function() {
+        var disqus_shortname = "https-osbb-gr-44-web-app"; // "DISQUS_SHORTNAME"; // required: replace example with your forum shortname
+
+        window.disqus_config = function() {
+          this.page.url = "DISQUS_SETS->canonical"; // Replace PAGE_URL with your page's canonical URL variable
+          //this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+          // this.page.language = '<?php echo LNG; ?>'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+
+          this.callbacks.onReady = [
+            function() {
+              if (window.parent) {
+                var h =
+                  parseInt(
+                    window
+                      .getComputedStyle(window.frameElement)
+                      ["height"].replace("px", "")
+                  ) - 108; //+20
+                var event = new CustomEvent("disqusFrameReady", {
+                  detail:
+                    '{"id":' +
+                    window.frameElement.getAttribute("data-id") +
+                    ',"h":"' +
+                    h +
+                    'px"}'
+                });
+                window.parent.document.dispatchEvent(event);
+              }
+            }
+          ];
+        };
+
+        (function() {
+          var dsq = document.createElement("script");
+          dsq.type = "text/javascript";
+          dsq.async = true;
+          dsq.setAttribute("nonce", "nonce_2oe3nhejr");
+          dsq.setAttribute("crossorigin", "anonymous");
+
+          dsq.src = "//" + disqus_shortname + ".disqus.com/embed.js";
+          (
+            document.getElementsByTagName("head")[0] ||
+            document.getElementsByTagName("body")[0]
+          ).appendChild(dsq);
+        })();
+      });
+    </script>
+  </body>
+</html>
