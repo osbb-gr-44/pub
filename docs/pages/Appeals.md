@@ -2,14 +2,12 @@
 
 <h5 align="center">
   <br>
-
      <div class="row flex-center">
        <div class="appeals-logo-200"></div>
      </div>
-
    <br>
 
-    Звернення співвласників будинку до управління ОСББ
+      Звернення співвласників будинку до управління ОСББ
 
   <br>
   <br>

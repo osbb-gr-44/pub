@@ -2,15 +2,13 @@
 
 <h5 align="center">
   <br>
-
     <div class="row flex-center">
      <div class="events-logo-200"></div>
      </div>
-
   <br>
 
       Головні події
-
+      
   <br>
 </h5>
 

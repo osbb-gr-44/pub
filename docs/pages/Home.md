@@ -2,13 +2,13 @@
 
 <h5 align="center">
   <br>
-
      <div class="row flex-center">
        <div class="home-logo-200"></div>
      </div>
-
   <br>
-   Головна сторінка ОСББ
+
+      Головна сторінка ОСББ
+
   <br>
   <br>
 </h5>
