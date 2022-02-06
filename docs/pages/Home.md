@@ -6,9 +6,7 @@
        <div class="home-logo-200"></div>
      </div>
   <br>
-
       Головна сторінка ОСББ
-
   <br>
   <br>
 </h5>

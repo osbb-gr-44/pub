@@ -6,9 +6,7 @@
      <div class="events-logo-200"></div>
      </div>
   <br>
-
       Головні події
-      
   <br>
 </h5>
 

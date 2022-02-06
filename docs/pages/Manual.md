@@ -4,9 +4,7 @@
   <br>
   <div class="row flex-center"><div class="manual-logo-200"></div></div>
   <br>
-
       Посібник користувача
-      
   <br>
 </h5>
 
