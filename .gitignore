@@ -28,6 +28,8 @@
 
 # игнорировать все файлы в каталоге docs/video/data
 # /pub/docs/video/data/
+docs/video/*.*
+!docs/video/videojs
 
 # игнорировать все каталоге в **/src/
 /**/src/
